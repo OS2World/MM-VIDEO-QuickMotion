@@ -1,0 +1,79 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..cpp .obj .rc .res 
+:TARGET.all
+:DEPENDENCY.
+.\qf.exe
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /G5 /C %s
+:RULE.{F:\PRACTICE\QuickFlick\SourceQF}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /G5 /C %s
+:RULE..rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:RULE.{F:\PRACTICE\QuickFlick\SourceQF}.rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:TARGET..\qf.exe
+:DEPENDENCY.
+.\moviefrm.obj
+.\qf.obj
+.\mfcsthlr.obj
+.\qf.res
+{$(LIB)}PROCL.LIB
+{$(LIB)}OS2386.LIB
+{$(LIB)}MMPM2.LIB
+{$(LIB)}QUIKFLIK.LIB
+{$(LIB)}QMMOOV.LIB
+{$(LIB)}QF.DEF
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+ /B" /exepack:2 /pmtype:pm /packd /optfunc /noe /nod"
+ /Feqf.exe 
+ PROCL.LIB 
+ OS2386.LIB 
+ MMPM2.LIB 
+ QUIKFLIK.LIB 
+ QMMOOV.LIB 
+ QF.DEF
+ .\moviefrm.obj
+ .\qf.obj
+ .\mfcsthlr.obj
+<<
+:ACTION.Bind::Resource Bind
+:COMMAND.
+rc.exe .\qf.res qf.exe
+:TARGET..\moviefrm.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceQF\moviefrm.cpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}moviefrm.hpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}qf.h
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}mfcsthlr.hpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}quikflik.hpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}quikflik.h
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}moov.hpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}qmmoov.h
+:TARGET..\mfcsthlr.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceQF\mfcsthlr.cpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}qf.h
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}mfcsthlr.hpp
+:TARGET..\qf.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceQF\qf.cpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}moviefrm.hpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}qf.h
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}mfcsthlr.hpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}quikflik.hpp
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE);}quikflik.h
+:TARGET..\qf.res
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceQF\qf.rc
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE)}QUICKMO.ICO
+{F:\PRACTICE\QuickFlick\SourceQF;$(INCLUDE)}qf.h

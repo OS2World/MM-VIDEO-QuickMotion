@@ -1,0 +1,6 @@
+LIBRARY QUICKMO
+DESCRIPTION 'QuickMotion (c)1998 Practice Corp.'
+EXPORTS
+ QUICKMO  @1
+
+

@@ -1,0 +1,410 @@
+.******************************************************************************* 
+<!-- QuickMotion Information (Deutsch) -->
+.******************************************************************************* 
+
+.******************************************************************************* 
+<!-- Symbol definitions -->
+.******************************************************************************* 
+.nameit symbol=DwhatIs text='Was ist QuickMotion?'
+.nameit symbol=Dinstall text='Installation'
+.nameit symbol=Dusage text='Anwendung'
+.nameit symbol=Dmovies text='Filme'
+.nameit symbol=Dlimits text='bekannte Limitierungen'
+.nameit symbol=Dtips text='Performance Tips'
+.nameit symbol=Dsupport text='Kontaktadressen'
+.nameit symbol=Dlicense text='License'
+.nameit symbol=Dacks text='Acknowledgements'
+
+.******************************************************************************* 
+<!-- Table of contents entries -->
+<!--   These panels work with forward/back.  All of them launch the improved -->
+<!--   table of contents. -->
+.******************************************************************************* 
+<H1 id=deutsch rules=border scroll=none titlebar=none clear>Deutsch</H1>
+
+<A HREF=? reftype=hd refid=Dcontents auto split>
+<A HREF=? reftype=hd refid=cover auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=DwhatIs rules=border scroll=none titlebar=none clear>&DwhatIs.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04901 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dinstall rules=border scroll=none titlebar=none clear>&Dinstall.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04903 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dusage rules=border scroll=none titlebar=none clear>&Dusage.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04904 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dmovies rules=border scroll=none titlebar=none clear>&Dmovies.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04907 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dlimits rules=border scroll=none titlebar=none clear>&Dlimits.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04906 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dtips rules=border scroll=none titlebar=none clear>&Dtips.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04908 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dsupport rules=border scroll=none titlebar=none clear>&Dsupport.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04909 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dlicense rules=border scroll=none titlebar=none clear>&Dlicense.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04905 auto split>
+
+.*------------------------------------------------------------------------------ 
+<H2 id=Dacks rules=border scroll=none titlebar=none clear>&Dacks.</H2>
+
+<A HREF=? reftype=hd refid=contents auto split>
+<A HREF=? reftype=hd res=04902 auto split></A>
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04901 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&DwhatIs.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+Willkommen zu QuickMotion fÅr OS/2 warp!
+<P>
+QuickMotion nutzt die MÑchtigkeit und FlexibilitÑt von OS/2 Multimedia,
+um, die vor allem im Internet verbreiteten, QuickTime Filme
+unter OS/2 zur VerfÅgung zu stellen. 
+<P>
+Mit QuickMotion fÅr OS/2 kînnen sie ihren vorhandenen Digital-Video-Spieler
+dazu verwenden QuickTime Filme abzuspielen! QuickMotion fÅr OS/2 unterstÅtzt zusÑtzlich
+alle zukÅnftigen Videospieler, wie zum Beispiel IBM's Multimedia OpenDoc Video Objekte
+und Videospieler anderer Hersteller, die die OS/2 Multimedia Technologie nutzen. 
+<P>
+QuickTime Filme haben Åblicherweise Dateinamen die mit .mov oder .qt enden. 
+
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04903 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dinstall.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+Die Installation von QuickMotion
+<LI>
+ôffnen sie Multimedia Installation aus dem Multimedia Ordner auf ihrer ArbeitsoberflÑche. 
+Falls sie Multimedia noch nicht installiert haben benutzen sie &quot;Installation Anpassen&quot;
+aus dem Ordner Systemkonfiguration, um Multimedia, wie in der Dokumentation zu OS/2 
+warp beschrieben, zu installieren. 
+<LI>
+Wechseln sie In Multimedia Installation in das Verzeichnis indem sie die QuickMotion
+Dateien plaziert haben. Wenn sie in das Verzeichnis gewechselt haben erscheint ein 
+QuickMotion Symbol, das schon fertig zur Installation markiert ist. 
+<LI>
+DrÅcken sie auf den Knopf Installieren. 
+</OL>
+<P>
+Alternativ kann man auf der Kommandozeile in das Verzeichnis wechseln indem die 
+QuickMotion Dateien vorliegen, MINSTALL.EXE ausfÅhren und bei Punkt 2 fortfahren. 
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04904 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dusage.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+Um QuickMotion zu benutzen starten sie einfach ihren lieblings OS/2 Videospieler und îffnen 
+sie einen QuickTime Film. OS/2 warp hat drei Videospieler im Lieferumfang
+<LI>
+<A HREF=? reftype=launch object='MPPM>EXE'.MPPM.EXE:elink. wird durch das Digital-Video-Spieler
+Symbol im Multimedia Ordner gestartet. Das QuickMotion Symbol im QuickMotion Ordner startet
+ebenfalls MPPM.EXE. 
+<LI>
+<A HREF=? reftype=launch object='VB>EXE'.VB.EXE:elink. ist ein Teil der Multimedia Viewers aus dem Bonus Pack. 
+<LI>
+<A HREF=? reftype=launch object='SWVR>EXE'.SWVR.EXE:elink. ist ein Teil von VideoIN aus dem Bonus Pack. 
+</UL>
+<P>
+Wenn sie in diesen Programmen Dateien îffnen wollen zeigen diese oft nur *.AVI Dateien in 
+der Dateiliste an. Lîschen sie den Eintrag *.AVI um alle Dateien anzuzeigen. 
+<P>
+Folgende Tips erleichtern die Arbeit mit QuickMotion im World-Wide-Web
+<LI>
+<A HREF=? reftype=launch object='EXPLORE>EXE'.Web Explorer</A> benutzt standartmÑ·ig VB.EXE 
+um QuickTime Filme anzuzeigen. Dies hat nie funktioniert, da OS/2 Multimedia das QuickTime Format
+nicht versteht. Mit QuickMotion hat sich das jetzt zum positiven geÑndert. VB.EXE bietet keine Mîglichkeit
+geladene Filme zu speichern, deshalb
+empfehlen wir MPPM.EXE oder SWVR.EXE um Videos abzuspielen. SWVR.EXE hat die Mîglichkeit geladene Filme 
+Abzuspeichern (Save As...). Die Warnmeldung die SWVR.EXE ausgibt falls keine Videocapture Karte in ihrem
+System installiert ist kann man ignorieren. 
+</UL>
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04907 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dmovies.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+Your QuickMotion CD-ROM features movies from the Quantum Leap <U>QuickTime Test Kit</U>
+in the MOVIES directory. 
+<P>
+You can see how your hardware stacks up by using SWVR (see <A HREF=? reftype=hd res=04904 split></A>) to play the movies in MOVIES/TESTCLPS, and watching the dropped
+frame percentage.  Some of these movies have very high data rates (by early-1996 standards). 
+This means that they will push your disk, video, and
+processor to the limit.  The movie
+<PRE>
+    640_30.MOV 
+</PRE>
+<P>
+is 640x480, 30 frames/second, full-color compressed video.  Even though it has no sound, it has a
+maximum data rate of over 2400K/second.  Our 32MB Pentium 90 with HPFS, SCSI and VRAM video
+drops 75% of the frames in this movie.  Drop us a note (see <A HREF=? reftype=hd res=04909 split></A>) to tell us how your system compares!
+<P>
+Check out Quantum Leap at
+<A HREF=? reftype=launch object='EXPLORE>EXE' data='httpquantumleap.net'.http&colon.//www.quantumleap.net:elink. 
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04906 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dlimits.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+Einige Teile der QuickTime Architektur kînnen
+nicht ohne weiteres durch OS/2 Multimedia nachgebildet werden, weshalb
+sie in der momentan vorliegenden Version von QuickMotion noch nicht
+unterstÅtzt werden. Dazu gehîren
+<LI>
+Aufnehmen. QuickMotion unterstÅtzt derzeit nur abspielen. 
+<LI>
+Variable Frame Rate. QuickMotion spielt QuickTime Filme immer mit der 
+durchschnittlichen Frame Rate des Films ab. 
+<LI>
+MIDI. QuickMotion verarbeitet keine MIDI Tonspuren. 
+<LI>
+Mehr als 2 Spuren. QuickMotion benîtigt eine Video und maximal eine Tonspur. 
+<LI>
+Edits. QuickMotion spielt immer den gesammten Film ab. 
+<LI>
+Mehrere CODECs. QuickMotion unterstÅtzt jeweils einen Video und Audio CODEC. 
+<LI>
+Virtual reality. 
+</UL>
+<P>
+Filme die diese Erweiterungen benutzen sind jedoch selten. Wir arbeiten
+dennoch an der UnterstÅtzung dieser und anderer Erweiterungen. 
+Achten sie auf unser Web Angebot. 
+
+.*-------------------------------------------------------------------------- 
+<H2 res=04908 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dtips.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+Wenn der Sound oder das Bild ruckelt oder zÑh lÑuft
+
+Die Reduzierung der Grî·e der Puffer ihrer Soundkarte sollte eine dramatische Verbesserung
+der Lage bringen.  Am Beispiel von SoundBlaster Karten
+    /B:2 or /B:1
+</PRE>
+<P>
+
+in der Zeile
+
+<PRE>
+    DEVICE=...\SBxxxxxx.SYS 
+</PRE>
+<P>
+in ihrer config.sys, wobei &quot;..." das Multimedia Verzeichnis ist und &quot;xxxxxx&quot;
+von dem Modell ihrer Soundkarte abhÑngt. Kleinere Puffer sind fÅr Multitasking besser
+geeignet, da sie schneller verarbeitet werden kînnen und auf diese Weise das
+System &quot;flÅssiger&quot; machen. 
+<P>
+Wenn sie mehr als 8MB Arbeitsspeicher in ihrem Rechner haben, kînnen sie ihr
+Multimedia System etwas tunen indem sie die folgenden Zeilen zu ihrer CONFIG.SYS 
+hinzufÅgen
+<PRE>
+    SET MMBUF=49152
+    REM This increases the size of the read buffer.  The default is 32768. 
+    REM It can be set even higher, but movies will take longer to load. 
+ 
+    SET MMSTREAM=/H:256
+    REM This increases the heap space for the stream manager to 256K, which
+    REM allows more movies to be open at once and may improve performance. 
+    REM The default is 64K, and 256K is the maximum. 
+</PRE>
+<P>
+Um die Geschwindikeit ihrer Grafikkarte zu erhîhen kînnen sie eine der fÅr ihre Grafikkarte
+zutreffende Zeile ausprobieren. Wenn das Video Bild anschlie·end nur schwarz ist, lîschen
+sie die Zeile wieder aus ihrer CONFIG.SYS. 
+
+<PRE>
+    SET VIDEO_APERTURE=A00
+    REM Video optimization for PCI bus system
+
+    SET VIDEO_APERTURE=78
+    REM Video optimization for VL bus system
+
+    SET VIDEO_APERTURE=3C
+    REM Video optimization for EISA bus system
+
+    SET VIDEO_APERTURE=E
+    REM Video optimization for ISA-Bus System (RAM + VRAM must be &lt;= 16MB)
+</PRE>
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04909 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dsupport.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+In Europe, contact
+  Andreas Portele
+  Plattenweg 11
+  64823 Gross-Umstadt
+  Germany
+
+  email: <A HREF=? reftype=launch object='EXPLORE>EXE' data='mailtoinformatik.th-darmstadt.de'.portele@rbg.informatik.th-darmstadt.de:elink. 
+  WWW: <A HREF=? reftype=launch object='EXPLORE>EXE' data='httpstudent.informatik.th-darmstadt.de/~portele'.http&colon.//www.student.informatik.th-darmstadt.de/~portele:elink. 
+  FAX 2:2464/6.27 
+</PRE>
+<P>
+In the United States, contact
+  Practice Corporation
+  1030 E. El Camino Real #513
+  Sunnyvale, CA  94087
+  USA
+
+  email: <A HREF=? reftype=launch object='EXPLORE>EXE' data='mailtoxo.com'.quickmo@practice.xo.com:elink. 
+  WWW: <A HREF=? reftype=launch object='EXPLORE>EXE' data='httppractice.xo.com'.http&colon.//www.practice.xo.com:elink. 
+  FAX
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04905 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dlicense.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+<PRE>
+Your use of QuickMotion for OS/2 is governed by the following terms. 
+By installing QuickMotion for OS/2, you agree to these terms. 
+
+       Practice Corporation grants you a license to use the Program
+       only in the country where you acquired it. The Program is
+       copyrighted and licensed (not sold). We do not transfer title
+       to the Program to you. You obtain no rights other than those
+       granted you under this license. 
+
+       Under this license, you may use the Program on one machine at a time;
+       2. make copies of the Program for backup purposes;
+
+       You may NOT sublicense, rent, lease, or assign the Program;
+       2. reverse assemble, reverse compile, or otherwise translate the
+          Program. 
+
+       We do not warrant that the Program is free from claims by a third
+       party of copyright, patent, trademark, trade secret, or any other
+       intellectual property infringement. 
+
+       Under no circumstances are we liable for any of the following third-party claims against you for losses or damages;
+       2. loss of, or damage to, your records or data; or
+       3. economic consequential damages (including lost profits or
+          savings) or incidental damages, even if we are informed of
+          their possibility. 
+
+       Some jurisdictions do not allow these limitations or exclusions,
+       so they may not apply to you. 
+
+       We do not warrant uninterrupted or error free operation of the
+       Program. We have no obligation to provide service, defect
+       correction, or any maintenance for the Program. We have no
+       obligation to supply any Program updates or enhancements to you
+       even if such are or later become available. 
+
+       THERE ARE NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE
+       IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+       PARTICULAR PURPOSE. 
+
+       Some jurisdictions do not allow the exclusion of implied
+       warranties, so the above exclusion may not apply to you. 
+
+       You may not sell, transfer, assign, or subcontract any of your
+       rights or obligations under this license. Any attempt to do so is
+       void. 
+
+       Neither of us may bring a legal action more than two years after
+       the cause of action arose. 
+
+       If you acquired the Program in the United States, this license is
+       governed by the laws of the State of California.  Otherwise, this
+       license is governed by the laws of the country in which you
+       acquired the Program. 
+
+       6/96
+</PRE>
+
+.*------------------------------------------------------------------------------ 
+<H2 res=04902 hide rules=border group=2 x=25% y=0% width=75% height=100% titlebar=yes>&Dacks.</H2>
+<P>
+<FONT SIZE=?> facename=Helv size=28x18>
+
+<FONT SIZE=?> facename=default size=0x0>
+<P>
+OS/2 is a registered trademark of IBM, Inc. 
+<P>
+QuickTime is a registered trademark of Apple Computer, Inc. 
+<P>
+QuickMotion for OS/2 is based in part on the work of the Independent
+JPEG Group, version 6. 
+<P>
+Our sincerest thanks to Nigel Clarke, Darryl Sperber, and Gail Zimmerman for going out of
+their way to help bring QuickMotion to you. 
+
+.******************************************************************************* 
+<!-- Improved Table of Contents -->
+.******************************************************************************* 
+<H2 id=Dcontents group=1 hide nosearch noprint scroll=vertical rules=border titlebar=yes x=0% y=0% width=25% height=100%>Inhalt</H2>
+<P>
+<IMG SRC=? ALIGN=? align=left name='quickmo>bmp'. 
+<MAP>>
+<A HREF=? reftype=hd refid=cover split>
+</MAP>
+&gt;<A HREF=? reftype=hd res=04901 split></A>
+
+<P>
+<IMG SRC=? ALIGN=? align=left name='install>bmp'. 
+&gt;<A HREF=? reftype=hd res=04903 split></A>
+
+<P>
+<IMG SRC=? ALIGN=? align=left name='info2>bmp'. 
+&gt;<A HREF=? reftype=hd res=04904 split></A>
+<BR>&gt;<A HREF=? reftype=hd res=04907 split></A>
+<BR>&gt;<A HREF=? reftype=hd res=04906 split></A>
+<BR>&gt;<A HREF=? reftype=hd res=04908 split></A>
+<BR>&gt;<A HREF=? reftype=hd res=04909 split></A>
+<BR>&gt;<A HREF=? reftype=hd res=04905 split></A>
+<BR>&gt;<A HREF=? reftype=hd res=04902 split></A>
+
+

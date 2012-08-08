@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/qmos2/!svn/ver/14/trunk/SourcePM/pminstal
+END
+make.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/qmos2/!svn/ver/14/trunk/SourcePM/pminstal/make.cmd
+END
+primgfix.exe
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/qmos2/!svn/ver/14/trunk/SourcePM/pminstal/primgfix.exe
+END
+primgfix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/qmos2/!svn/ver/14/trunk/SourcePM/pminstal/primgfix.cpp
+END
+primgfix.obj
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/qmos2/!svn/ver/14/trunk/SourcePM/pminstal/primgfix.obj
+END

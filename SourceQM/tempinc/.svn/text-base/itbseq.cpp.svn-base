@@ -1,0 +1,30 @@
+/*0000000000*/#pragma sourcedir("F:\\PRACTICE\\QUICKMO\\SourceQM")
+/*0800305754*/#include "F:\IBMCPP\INCLUDE\itbseq.h"
+/*0000000000*/#include "F:\IBMCPP\INCLUDE\itbseq.c"
+/*0832525192*/#include "F:\PRACTICE\QUICKMO\SourceQM\moov.hpp"
+/*0800305752*/#include "F:\IBMCPP\INCLUDE\istdops.h"
+#pragma define(IGTabularSequenceNode<TrackAtom,IStdOps<TrackAtom> >)
+#pragma define(IGTabularSequenceCursor<TrackAtom,IStdOps<TrackAtom> >)
+#pragma define(IGTabularSequenceNode<EditList,IStdOps<EditList> >)
+#pragma define(IGTabularSequenceCursor<EditList,IStdOps<EditList> >)
+#pragma define(IGTabularSequenceNode<unsigned long,IStdOps<unsigned long> >)
+#pragma define(IGTabularSequenceNode<SampleToChunk,IStdOps<SampleToChunk> >)
+#pragma define(IGTabularSequenceCursor<SampleToChunk,IStdOps<SampleToChunk> >)
+#pragma define(IGTabularSequenceNode<TimeToSample,IStdOps<TimeToSample> >)
+#pragma define(IGTabularSequenceCursor<TimeToSample,IStdOps<TimeToSample> >)
+#pragma define(IGTabularSequenceNode<SampleDescription,IStdOps<SampleDescription> >)
+#pragma define(IGTabularSequenceCursor<SampleDescription,IStdOps<SampleDescription> >)
+#pragma define(IGTabularSequenceCursor<unsigned long,IStdOps<unsigned long> >)
+#pragma define(ITabularSequence<TrackAtom>)
+#pragma define(IGTabularSequence<TrackAtom,IStdOps<TrackAtom> >)
+#pragma define(ITabularSequence<EditList>)
+#pragma define(IGTabularSequence<EditList,IStdOps<EditList> >)
+#pragma define(ITabularSequence<unsigned long>)
+#pragma define(IGTabularSequence<unsigned long,IStdOps<unsigned long> >)
+#pragma define(ITabularSequence<SampleToChunk>)
+#pragma define(IGTabularSequence<SampleToChunk,IStdOps<SampleToChunk> >)
+#pragma define(ITabularSequence<TimeToSample>)
+#pragma define(IGTabularSequence<TimeToSample,IStdOps<TimeToSample> >)
+#pragma define(ITabularSequence<SampleDescription>)
+#pragma define(IGTabularSequence<SampleDescription,IStdOps<SampleDescription> >)
+#pragma undeclared

@@ -1,0 +1,137 @@
+#ifndef PracticeMooV_idl
+#define PracticeMooV_idl
+
+//# ================================================================= #
+//# Include directives section:                                       #
+//# Include the class interface definition file for this object's     #
+//# parent class, metaclass (if any), and any ancestor class for      #
+//# which this class overrides one or more of its methods.            #
+//# ================================================================= #
+#include <mmmov.idl>
+#include <somcls.idl>
+
+//# ================================================================== #
+//# Declaration section:                                               #
+//# Define any types, constants, and exception structures here.  The   #
+//# declarations defined here are not included in the binding files    #
+//# by the SOM compiler, and are thus private to the class.            #
+//# ================================================================== #
+
+interface M_PracticeMooV;
+
+interface PracticeMooV : MMMOV
+{
+   //# ================================================================== #
+   //# Interface Declaration Section:                                     #
+   //# Declare any new methods and attributes here.  Additional types,    #
+   //# constants, and exception structures may also be defined here.      #
+   //# By default, the declarations defined here are exported to the      #
+   //# binding files by the SOM compiler, and are thus public and         #
+   //# available to client programs.                                      #
+   //# ================================================================== #
+
+
+   //# ================================================================== #
+   //# Class attributes - data that can be used and manipulated by the    #
+   //# class's clients.  Declare any class attributes here.               #
+   //# ================================================================== #
+
+
+#ifdef __SOMIDL__
+  implementation {
+
+    //#============================================================================#
+    //# Release order -- specify the release order for any new methods, including  #
+    //#                  the _get and _set accessor methods for each attribute.    #
+    //#============================================================================#
+
+    //#   releaseorder:
+
+    //#============================================================================#
+    //# Class modifier statements
+    //#============================================================================#
+          externalstem = PracticeMooV;
+          local;
+          externalprefix = PracticeMooVX_;
+          majorversion = 1;
+          minorversion = 1;
+          filestem = PracticeMooV;
+          metaclass = M_PracticeMooV;
+          callstyle = oidl;
+
+
+    //# ================================================================== #
+    //# Passthru Statements:                                               #
+    //# Include any blocks of code that the SOM compiler should pass       #
+    //# verbatim to the binding files it generates.                        #
+    //# ================================================================== #
+
+   passthru C_ih_before =  ""      //# Internal definitions for this object
+   " /* PM and OS2 include directives */"
+   "   #define INCL_32"
+   "   #include <os2.h>"
+   ""
+   " /* WPS include directives */"
+   "   #define INCL_WPCLASS"
+   "   #include <pmwp.h>";
+
+    passthru C_h_before =  "";   //# Public definitions for this object
+
+    //# ================================================================== #
+    //# Internal instance variables - data only used by the class's        #
+    //# methods and not by client programs or sublasses' methods.          #
+    //# ================================================================== #
+
+
+    //# ================================================================== #
+    //# Method modifiers                                                   #
+    //# ================================================================== #
+      wpQueryDefaultView: override;
+      wpQueryAssociatedFileIcon: override;
+
+    //# ================================================================== #
+    //# Attribute modifiers                                                #
+    //# ================================================================== #
+
+  };
+#endif /* __SOMIDL__ */
+};
+
+
+
+//# ================================================================== #
+//# Metaclass section:                                                 #
+//# Describe the metaclass of My_Object.  A metaclass allows this      #
+//# object to define its own constructor, class methods, and data.     #
+//# ================================================================== #
+
+interface M_PracticeMooV : M_MMMOV
+
+{
+#ifdef __SOMIDL__
+  implementation {
+
+    //#releaseorder:
+
+    //# instance variables
+
+    //# Class Modifiers
+    externalstem = PracticeMooV;
+    local;
+    externalprefix = PracticeMooVX_;
+    functionprefix = PracticeMooVC_;
+    majorversion = 1;
+    minorversion = 1;
+    filestem = PracticeMooV;
+    callstyle = oidl;
+
+    //# Class method Modifiers
+    wpclsQueryDefaultView: override;
+    wpclsQueryTitle:       override;
+
+  };
+#endif /* __SOMIDL__ */
+};
+
+#endif  /* PracticeBitamp_idl */
+

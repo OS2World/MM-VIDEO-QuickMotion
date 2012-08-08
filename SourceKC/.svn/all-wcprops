@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC
+END
+kpcdcode.rc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdcode.rc
+END
+kpcdcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdcode.h
+END
+KPCDCODE.MAK
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/KPCDCODE.MAK
+END
+kpcdcode.RES
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdcode.RES
+END
+kpcdclas.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdclas.cpp
+END
+kpcdcode.obj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdcode.obj
+END
+KPCDCODE.DLL
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/KPCDCODE.DLL
+END
+KPCDCODE.$mm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/KPCDCODE.$mm
+END
+kpcdcode.def
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdcode.def
+END
+kpcdclas.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdclas.hpp
+END
+copyuser.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/copyuser.cmd
+END
+kpcdclas.obj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdclas.obj
+END
+kpcdcode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/5/trunk/SourceKC/kpcdcode.cpp
+END

@@ -1,0 +1,18 @@
+#include "npqkfl.h"
+
+#include <icconst.h>
+
+ICON NPQKFL_ID NPQKFL.ICO
+
+RCDATA NP_INFO_ProductName       BEGIN "QuickFlick\0" END
+RCDATA NP_INFO_MIMEType          BEGIN "video/quicktime\0" END
+RCDATA NP_INFO_ProductVersion    BEGIN 2,0,0,0, END
+RCDATA NP_INFO_FileExtents       BEGIN "mov\0" END
+RCDATA NP_INFO_FileOpenName      BEGIN "QuickTime Movie\0" END
+RCDATA NP_INFO_FileDescription   BEGIN "<EMBED type=video/quicktime width=250 height=32 aboutplugins=true>   Version 2.0 from <A HREF=http://www.quickmotion.com>Practice</A>.\0" END
+RCDATA NP_INFO_InternalName      BEGIN "NPQKFL\0" END
+RCDATA NP_INFO_OriginalFilename  BEGIN "NPQKFL.DLL" END
+RCDATA NP_INFO_CompanyName       BEGIN "Practice Corporation\0" END
+RCDATA NP_INFO_LegalCopyright    BEGIN "Copyright Practice Corporation \251 1998\0" END
+
+

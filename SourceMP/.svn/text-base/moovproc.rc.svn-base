@@ -1,0 +1,19 @@
+#include "moovproc.h"
+
+ICON QUICKMO_ID QUICKMO.ICO
+
+RCDATA NLS_CHARSET_INFO
+BEGIN
+        MMIO_DEFAULT_CODE_PAGE,
+        MMIO_CC_USA,
+        MMIO_LC_US_ENGLISH,
+        MMIO_DC_US_ENGLISH
+END
+
+RCDATA IOPROC_NAME_TABLE
+BEGIN
+        HEX_FOURCC_MOOV,     "QuickMotion for OS/2\0",
+        0,                   "\0"
+END
+
+

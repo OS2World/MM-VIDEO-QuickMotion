@@ -1,0 +1,7 @@
+LIBRARY QFBASE
+DESCRIPTION 'QuickMotion (c)1998 Practice Corp.'
+EXPORTS
+ install
+ QUIKFLIK
+
+

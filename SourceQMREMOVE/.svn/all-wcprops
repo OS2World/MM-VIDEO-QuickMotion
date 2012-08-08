@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE
+END
+qmremove.mak
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE/qmremove.mak
+END
+qmremove.obj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE/qmremove.obj
+END
+qmremove.dll
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE/qmremove.dll
+END
+qmremove.$mm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE/qmremove.$mm
+END
+qmremove.def
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE/qmremove.def
+END
+copyuser.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE/copyuser.cmd
+END
+qmremove.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/qmos2/!svn/ver/11/trunk/SourceQMREMOVE/qmremove.cpp
+END

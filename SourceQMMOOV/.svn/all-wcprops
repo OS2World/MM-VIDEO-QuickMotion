@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV
+END
+moov.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/moov.cpp
+END
+qmmoov.rc
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.rc
+END
+copylib.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/copylib.cmd
+END
+qmmoov.LIB
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.LIB
+END
+qmmoov.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.h
+END
+copyall.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/copyall.cmd
+END
+qmmoov.mak
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.mak
+END
+moov.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/moov.hpp
+END
+qmmoov.RES
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.RES
+END
+qmmoov.dll
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.dll
+END
+moov.obj
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/moov.obj
+END
+qmmoov.$mm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.$mm
+END
+qmmoov.def
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/qmos2/!svn/ver/9/trunk/SourceQMMOOV/qmmoov.def
+END

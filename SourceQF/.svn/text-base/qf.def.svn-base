@@ -1,0 +1,5 @@
+NAME QF
+DESCRIPTION 'QuickFlick (c)1998 Practice Corp.'
+SEGMENTS
+   _MSGSEG32 CLASS 'CODE'
+

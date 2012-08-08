@@ -1,0 +1,30 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..cpp .obj 
+:TARGET.all
+:DEPENDENCY.
+.\qmremove.dll
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /Rn /Ge- /G5 /C %s
+:RULE.{F:\PRACTICE\quickmo\sourceqmremove}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /Rn /Ge- /G5 /C %s
+:TARGET..\qmremove.dll
+:DEPENDENCY.
+.\qmremove.obj
+{$(LIB)}MMPM2.LIB
+{$(LIB)}QMREMOVE.DEF
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+ /B" /exepack:2 /packd /optfunc /noe"
+ /Feqmremove.dll 
+ MMPM2.LIB 
+ QMREMOVE.DEF
+ .\qmremove.obj
+<<
+:TARGET..\qmremove.obj
+:DEPENDENCY.
+F:\PRACTICE\quickmo\sourceqmremove\qmremove.cpp

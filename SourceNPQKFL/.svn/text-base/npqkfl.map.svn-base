@@ -1,0 +1,546 @@
+
+ NPQKFL
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000000H _MSGSEG32              CODE 32-bit
+
+ 0001:00000000 000002468H CODE32                 CODE 32-bit
+	at offset 00000000 00296H bytes from F:\PRACTICE\QuickFlick\SourceNPQKFL\npos2.obj (npos2.cpp)
+	at offset 000002a0 012B9H bytes from F:\practice\quickflick\sourcenpqkfl\qfplugin.obj (qfplugin.cpp)
+	at offset 00001560 005B9H bytes from F:\practice\quickflick\sourcenpqkfl\about.obj (about.cpp)
+	at offset 00001b20 0035FH bytes from F:\practice\quickflick\sourcenpqkfl\npqkfl.obj (npqkfl.cpp)
+	at offset 00001e80 00111H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\crt\ctordtor.c)
+	at offset 00001f94 004D2H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\front\cxxd\lib\except.cpp)
+
+ 0002:00000000 000000164H EH_CODE                CODE 32-bit
+	at offset 00000000 00069H bytes from F:\practice\quickflick\sourcenpqkfl\qfplugin.obj (qfplugin.cpp)
+	at offset 00000070 000E0H bytes from F:\practice\quickflick\sourcenpqkfl\about.obj (about.cpp)
+	at offset 00000150 00011H bytes from F:\practice\quickflick\sourcenpqkfl\npqkfl.obj (npqkfl.cpp)
+
+ 0003:00000000 0000001E4H CONST32_RO             CONST 32-bit
+	at offset 00000000 001CCH bytes from F:\practice\quickflick\sourcenpqkfl\qfplugin.obj (qfplugin.cpp)
+	at offset 000001cc 00016H bytes from F:\practice\quickflick\sourcenpqkfl\about.obj (about.cpp)
+
+ 0004:00000000 00000038CH EH_DATA                CONST 32-bit
+	at offset 00000000 0022CH bytes from F:\practice\quickflick\sourcenpqkfl\qfplugin.obj (qfplugin.cpp)
+	at offset 0000022c 00128H bytes from F:\practice\quickflick\sourcenpqkfl\about.obj (about.cpp)
+	at offset 00000354 00038H bytes from F:\practice\quickflick\sourcenpqkfl\npqkfl.obj (npqkfl.cpp)
+
+ 0004:0000038C 000000788H _VFT                   CONST 32-bit
+	at offset 00000000 003C0H bytes from F:\practice\quickflick\sourcenpqkfl\qfplugin.obj (qfplugin.cpp)
+	at offset 000003c0 003C8H bytes from F:\practice\quickflick\sourcenpqkfl\about.obj (about.cpp)
+
+ 0005:00000000 000000008H DATA32                 DATA 32-bit
+	at offset 00000000 00004H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\crt\ctordtor.c)
+	at offset 00000004 00004H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\crt\dllstub.asm)
+
+ 0005:00000008 000000000H CTOR_DTOR1             DATA 32-bit
+
+ 0005:00000008 000000000H CTOR_DTOR2             DATA 32-bit
+
+ 0005:00000008 000000000H CTOR_DTOR3             DATA 32-bit
+
+ 0005:00000008 000000000H EDC1                   EDC_CLASS 32-bit
+
+ 0005:00000008 000000000H EDC2                   EDC_CLASS 32-bit
+
+ 0005:00000008 000000000H EDC3                   EDC_CLASS 32-bit
+
+ 0005:00000008 000000020H BSS32                  BSS 32-bit
+	at offset 00000000 00008H bytes from F:\PRACTICE\QuickFlick\SourceNPQKFL\npos2.obj (npos2.cpp)
+	at offset 00000008 00014H bytes from F:\practice\quickflick\sourcenpqkfl\qfplugin.obj (qfplugin.cpp)
+	at offset 0000001c 00004H bytes from F:\practice\quickflick\sourcenpqkfl\npqkfl.obj (npqkfl.cpp)
+
+ 0005:00000028 000000004H c_common               BSS 32-bit
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0005:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:00000010 NP_GetEntryPoints       NP_GetEntryPoints
+ 0001:000000B0 NP_Initialize           NP_Initialize
+ 0001:00000100 NP_Shutdown             NP_Shutdown
+ 0001:00001DD8 _DLL_InitTerm           _DLL_InitTerm
+
+  Address         Publics by Name
+
+ 0000:00000000  Imp  activeColor__7IWindowCFv (PROCL.activeColor__7IWindowCFv)
+ 0000:00000000  Imp  addObserver__7IWindowFR9IObserverRC10IEventData (PROCL.addObserver__7IWindowFR9IObserverRC10IEventData)
+ 0000:00000000  Imp  addRef__11IRefCountedFv (PROCL.addRef__11IRefCountedFv)
+ 0000:00000000  Imp  addToCell__16IMultiCellCanvasFP7IWindowUlN32 (PROCL.addToCell__16IMultiCellCanvasFP7IWindowUlN32)
+ 0000:00000000  Imp  applyBidiSettings__7IWindowFRCQ2_7IWindow12BidiSettingsiT2 (PROCL.applyBidiSettings__7IWindowFRCQ2_7IWindow12BidiSettingsiT2)
+ 0000:00000000  Imp  asDebugInfo__6IVBaseCFv (PROCL.asDebugInfo__6IVBaseCFv)
+ 0000:00000000  Imp  asDebugInfo__7IWindowCFv (PROCL.asDebugInfo__7IWindowCFv)
+ 0000:00000000  Imp  asDebugInfo__8IHandlerCFv (PROCL.asDebugInfo__8IHandlerCFv)
+ 0000:00000000  Imp  asString__6IVBaseCFv (PROCL.asString__6IVBaseCFv)
+ 0000:00000000  Imp  asString__7IWindowCFv (PROCL.asString__7IWindowCFv)
+ 0000:00000000  Imp  asString__8IHandlerCFv (PROCL.asString__8IHandlerCFv)
+ 0000:00000000  Imp  backgroundColor__7IWindowCFv (PROCL.backgroundColor__7IWindowCFv)
+ 0000:00000000  Imp  borderColor__7IWindowCFv (PROCL.borderColor__7IWindowCFv)
+ 0000:00000000  Imp  calcMinimumSize__7IWindowCFv (PROCL.calcMinimumSize__7IWindowCFv)
+ 0000:00000000  Imp  capturePointer__7IWindowFi (PROCL.capturePointer__7IWindowFi)
+ 0000:00000000  Imp  controller__10QuickFlickFv (QUIKFLIK.41)
+ 0000:00000000  Imp  convertToGUIStyle__7IWindowCFRC8IBitFlagi (PROCL.convertToGUIStyle__7IWindowCFRC8IBitFlagi)
+ 0000:00000000  Imp  createController__10QuickFlickFf (QUIKFLIK.2)
+ 0000:00000000  Imp  create__7IWindowFUlPCcT1T2RC13IWindowHandleT5RC10IRectanglePCvT8Q2_7IWindow12SiblingOrder (PROCL.create__7IWindowFUlPCcT1T2RC13IWindowHandleT5RC10IRectanglePCvT8Q2_7IWindow12SiblingOrder)
+ 0000:00000000  Imp  current__7IThreadFv  (PROCL.current__7IThreadFv)
+ 0000:00000000  Imp  defaultProcedure__8IHandlerFR6IEvent (PROCL.defaultProcedure__8IHandlerFR6IEvent)
+ 0000:00000000  Imp  defaultPushButton__7IWindowCFv (PROCL.defaultPushButton__7IWindowCFv)
+ 0000:00000000  Imp  defaultStyle__11IPushButtonFv (PROCL.defaultStyle__11IPushButtonFv)
+ 0000:00000000  Imp  defaultStyle__14IBitmapControlFv (PROCL.defaultStyle__14IBitmapControlFv)
+ 0000:00000000  Imp  defaultStyle__7ICanvasFv (PROCL.defaultStyle__7ICanvasFv)
+ 0000:00000000  Imp  desktopWindow__7IWindowFv (PROCL.desktopWindow__7IWindowFv)
+ 0001:00000350       destroyStream__16QuickFlickPluginFs
+ 0000:00000000  Imp  disabledBackgroundColor__7IWindowCFv (PROCL.disabledBackgroundColor__7IWindowCFv)
+ 0000:00000000  Imp  disabledForegroundColor__7IWindowCFv (PROCL.disabledForegroundColor__7IWindowCFv)
+ 0000:00000000  Imp  disableNotification__7IWindowFv (PROCL.disableNotification__7IWindowFv)
+ 0000:00000000  Imp  disableUpdate__7IWindowFv (PROCL.disableUpdate__7IWindowFv)
+ 0000:00000000  Imp  disable__7IWindowFv  (PROCL.disable__7IWindowFv)
+ 0000:00000000  Imp  disable__8IHandlerFv (PROCL.disable__8IHandlerFv)
+ 0000:00000000  Imp  dispatchHandlerEvent__15ICommandHandlerFR6IEvent (PROCL.dispatchHandlerEvent__15ICommandHandlerFR6IEvent)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosGetDateTime       (DOSCALLS.230)
+ 0000:00000000  Imp  DosPostEventSem      (DOSCALLS.328)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  DosRequestMutexSem   (DOSCALLS.334)
+ 0000:00000000  Imp  enableDefault__11IPushButtonFi (PROCL.enableDefault__11IPushButtonFi)
+ 0000:00000000  Imp  enableNotification__7IWindowFi (PROCL.enableNotification__7IWindowFi)
+ 0000:00000000  Imp  enableUpdate__7IWindowFi (PROCL.enableUpdate__7IWindowFi)
+ 0000:00000000  Imp  enable__7IWindowFi   (PROCL.enable__7IWindowFi)
+ 0000:00000000  Imp  enable__8IHandlerFi  (PROCL.enable__8IHandlerFi)
+ 0000:00000000  Imp  extendedStyle__7IWindowCFv (PROCL.extendedStyle__7IWindowCFv)
+ 0000:00000000  Imp  font__7IWindowCFv    (PROCL.font__7IWindowCFv)
+ 0000:00000000  Imp  foregroundColor__7IWindowCFv (PROCL.foregroundColor__7IWindowCFv)
+ 0000:00000000  Imp  handleEventsFor__8IHandlerFP7IWindow (PROCL.handleEventsFor__8IHandlerFP7IWindow)
+ 0000:00000000  Imp  handleException__7IWindowFR10IExceptionR6IEvent (PROCL.handleException__7IWindowFR10IExceptionR6IEvent)
+ 0000:00000000  Imp  handle__7IWindowCFv  (PROCL.handle__7IWindowCFv)
+ 0000:00000000  Imp  hasPointerCaptured__7IWindowCFv (PROCL.hasPointerCaptured__7IWindowCFv)
+ 0000:00000000  Imp  hideSourceEmphasis__7IWindowFv (PROCL.hideSourceEmphasis__7IWindowFv)
+ 0000:00000000  Imp  hide__7IWindowFv     (PROCL.hide__7IWindowFv)
+ 0000:00000000  Imp  hiliteBackgroundColor__7IWindowCFv (PROCL.hiliteBackgroundColor__7IWindowCFv)
+ 0000:00000000  Imp  hiliteForegroundColor__7IWindowCFv (PROCL.hiliteForegroundColor__7IWindowCFv)
+ 0000:00000000  Imp  IExcept__throwLibraryError__FUlRC18IExceptionLocationQ2_10IErrorInfo13ExceptionTypeQ2_10IException8SeverityPCc (PROCL.IExcept__throwLibraryError__FUlRC18IExceptionLocationQ2_10IErrorInfo13ExceptionTypeQ2_10IException8SeverityPCc)
+ 0000:00000000  Imp  inactiveColor__7IWindowCFv (PROCL.inactiveColor__7IWindowCFv)
+ 0000:00000000  Imp  initialize__10QuickFlickFv (QUIKFLIK.38)
+ 0001:00000978       initialize__16QuickFlickPluginFv
+ 0000:00000000  Imp  isEnabledForNotification__7IWindowCFv (PROCL.isEnabledForNotification__7IWindowCFv)
+ 0000:00000000  Imp  isFrameWindow__7IWindowCFv (PROCL.isFrameWindow__7IWindowCFv)
+ 0000:00000000  Imp  isGroup__7IWindowCFv (PROCL.isGroup__7IWindowCFv)
+ 0000:00000000  Imp  isLayoutDistorted__7IWindowCFUl (PROCL.isLayoutDistorted__7IWindowCFUl)
+ 0000:00000000  Imp  isTabStop__7IWindowCFv (PROCL.isTabStop__7IWindowCFv)
+ 0000:00000000  Imp  isValid__7IWindowCFv (PROCL.isValid__7IWindowCFv)
+ 0000:00000000  Imp  lastIndexOf__7IStringCFcUi (PROCL.lastIndexOf__7IStringCFcUi)
+ 0000:00000000  Imp  layoutAdjustment__7IWindowCFv (PROCL.layoutAdjustment__7IWindowCFv)
+ 0000:00000000  Imp  lowerCase__7IStringFv (PROCL.lowerCase__7IStringFv)
+ 0005:0000001C       mainThreadPriorityBoosted__16QuickFlickPlugin
+ 0000:00000000  Imp  matchForMnemonic__7IWindowCFUs (PROCL.matchForMnemonic__7IWindowCFUs)
+ 0000:00000000  Imp  maximum__5IPairCFRC5IPair (PROCL.maximum__5IPairCFRC5IPair)
+ 0000:00000000  Imp  minimum__5IPairCFRC5IPair (PROCL.minimum__5IPairCFRC5IPair)
+ 0000:00000000  Imp  mmioClose            (MMIO.32)
+ 0000:00000000  Imp  mmioOpen             (MMIO.27)
+ 0000:00000000  Imp  mmioSeek             (MMIO.30)
+ 0000:00000000  Imp  mmioWrite            (MMIO.29)
+ 0000:00000000  Imp  moveSizeTo__7IWindowFRC10IRectangle (PROCL.moveSizeTo__7IWindowFRC10IRectangle)
+ 0000:00000000  Imp  moveTo__7IWindowFRC6IPoint (PROCL.moveTo__7IWindowFRC6IPoint)
+ 0000:00000000  Imp  nativeRect__7IWindowCFv (PROCL.nativeRect__7IWindowCFv)
+ 0001:00000706       newStream__16QuickFlickPluginF7IStringUl
+ 0000:00000000  Imp  noStyle__7IWindow    (PROCL.noStyle__7IWindow)
+ 0000:00000000  Imp  notifyObservers__7IWindowFRC18INotificationEvent (PROCL.notifyObservers__7IWindowFRC18INotificationEvent)
+ 0000:00000000  Imp  notifyObservers__7IWindowFRCPCc (PROCL.notifyObservers__7IWindowFRCPCc)
+ 0001:00001B40       NPP_Destroy
+ 0001:00001B90       NPP_DestroyStream
+ 0001:00001DA0       NPP_Initialize
+ 0001:00001CD0       NPP_New
+ 0001:00001C0E       NPP_NewStream
+ 0001:00001B20       NPP_Print
+ 0001:00001E40       NPP_SetWindow
+ 0001:00001D98       NPP_Shutdown
+ 0001:00001B30       NPP_StreamAsFile
+ 0001:00001BC0       NPP_Write
+ 0001:00001BF2       NPP_WriteReady
+ 0001:00000010       NP_GetEntryPoints
+ 0001:000000B0       NP_Initialize
+ 0001:00000100       NP_Shutdown
+ 0000:00000000  Imp  observerList__7IWindowCFv (PROCL.observerList__7IWindowCFv)
+ 0000:00000000  Imp  parentSize__7IWindowCFv (PROCL.parentSize__7IWindowCFv)
+ 0000:00000000  Imp  player__10QuickFlickFv (QUIKFLIK.11)
+ 0000:00000000  Imp  positionBehindSiblings__7IWindowFv (PROCL.positionBehindSiblings__7IWindowFv)
+ 0000:00000000  Imp  positionBehindSibling__7IWindowFRC13IWindowHandle (PROCL.positionBehindSibling__7IWindowFRC13IWindowHandle)
+ 0000:00000000  Imp  positionOnSiblings__7IWindowFv (PROCL.positionOnSiblings__7IWindowFv)
+ 0000:00000000  Imp  position__7IWindowCFv (PROCL.position__7IWindowCFv)
+ 0000:00000000  Imp  postEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2 (PROCL.postEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2)
+ 0000:00000000  Imp  postEvent__7IWindowCFRC6IEvent (PROCL.postEvent__7IWindowCFRC6IEvent)
+ 0000:00000000  Imp  postEvent__7IWindowCFUlRC10IEventDataT2 (PROCL.postEvent__7IWindowCFUlRC10IEventDataT2)
+ 0000:00000000  Imp  presSpace__7IWindowCFv (PROCL.presSpace__7IWindowCFv)
+ 0000:00000000  Imp  rect__7IWindowCFv    (PROCL.rect__7IWindowCFv)
+ 0000:00000000  Imp  refresh__7IWindowFi  (PROCL.refresh__7IWindowFi)
+ 0000:00000000  Imp  refresh__7IWindowFQ2_7IWindow11RefreshType (PROCL.refresh__7IWindowFQ2_7IWindow11RefreshType)
+ 0000:00000000  Imp  refresh__7IWindowFRC10IRectanglei (PROCL.refresh__7IWindowFRC10IRectanglei)
+ 0000:00000000  Imp  releasePointer__7IWindowFv (PROCL.releasePointer__7IWindowFv)
+ 0000:00000000  Imp  releasePresSpace__7IWindowCFRC16IPresSpaceHandle (PROCL.releasePresSpace__7IWindowCFRC16IPresSpaceHandle)
+ 0000:00000000  Imp  removeAllObservers__7IWindowFv (PROCL.removeAllObservers__7IWindowFv)
+ 0000:00000000  Imp  removeObserver__7IWindowFR9IObserver (PROCL.removeObserver__7IWindowFR9IObserver)
+ 0000:00000000  Imp  removeRef__11IRefCountedFv (PROCL.removeRef__11IRefCountedFv)
+ 0000:00000000  Imp  resetActiveColor__7IWindowFv (PROCL.resetActiveColor__7IWindowFv)
+ 0000:00000000  Imp  resetBackgroundColor__7IWindowFv (PROCL.resetBackgroundColor__7IWindowFv)
+ 0000:00000000  Imp  resetBorderColor__7IWindowFv (PROCL.resetBorderColor__7IWindowFv)
+ 0000:00000000  Imp  resetDisabledBackgroundColor__7IWindowFv (PROCL.resetDisabledBackgroundColor__7IWindowFv)
+ 0000:00000000  Imp  resetDisabledForegroundColor__7IWindowFv (PROCL.resetDisabledForegroundColor__7IWindowFv)
+ 0000:00000000  Imp  resetFont__7IWindowFv (PROCL.resetFont__7IWindowFv)
+ 0000:00000000  Imp  resetForegroundColor__7IWindowFv (PROCL.resetForegroundColor__7IWindowFv)
+ 0000:00000000  Imp  resetHiliteBackgroundColor__7IWindowFv (PROCL.resetHiliteBackgroundColor__7IWindowFv)
+ 0000:00000000  Imp  resetHiliteForegroundColor__7IWindowFv (PROCL.resetHiliteForegroundColor__7IWindowFv)
+ 0000:00000000  Imp  resetInactiveColor__7IWindowFv (PROCL.resetInactiveColor__7IWindowFv)
+ 0000:00000000  Imp  resetShadowColor__7IWindowFv (PROCL.resetShadowColor__7IWindowFv)
+ 0000:00000000  Imp  resourceLibrary__10QuickFlickFv (QUIKFLIK.59)
+ 0000:00000000  Imp  sendEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2 (PROCL.sendEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2)
+ 0000:00000000  Imp  sendEvent__7IWindowCFRC6IEvent (PROCL.sendEvent__7IWindowCFRC6IEvent)
+ 0000:00000000  Imp  sendEvent__7IWindowCFUlRC10IEventDataT2 (PROCL.sendEvent__7IWindowCFUlRC10IEventDataT2)
+ 0000:00000000  Imp  setActiveColor__7IWindowFRC6IColor (PROCL.setActiveColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setAutoDestroyWindow__7IWindowFi (PROCL.setAutoDestroyWindow__7IWindowFi)
+ 0000:00000000  Imp  setAutoplay__10QuickFlickFi (QUIKFLIK.42)
+ 0000:00000000  Imp  setBackgroundColor__7IWindowFRC6IColor (PROCL.setBackgroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setBorderColor__7IWindowFRC6IColor (PROCL.setBorderColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setColumnWidth__16IMultiCellCanvasFUlT1i (PROCL.setColumnWidth__16IMultiCellCanvasFUlT1i)
+ 0000:00000000  Imp  setDetentPercent__12QFControllerFf (QUIKFLIK.20)
+ 0000:00000000  Imp  setDisabledBackgroundColor__7IWindowFRC6IColor (PROCL.setDisabledBackgroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setDisabledForegroundColor__7IWindowFRC6IColor (PROCL.setDisabledForegroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setExtendedStyle__7IWindowFUl (PROCL.setExtendedStyle__7IWindowFUl)
+ 0000:00000000  Imp  setFocus__7IWindowFv (PROCL.setFocus__7IWindowFv)
+ 0000:00000000  Imp  setFont__7IWindowFRC5IFont (PROCL.setFont__7IWindowFRC5IFont)
+ 0000:00000000  Imp  setForegroundColor__7IWindowFRC6IColor (PROCL.setForegroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setFullPercent__12QFControllerFf (QUIKFLIK.16)
+ 0000:00000000  Imp  setHiliteBackgroundColor__7IWindowFRC6IColor (PROCL.setHiliteBackgroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setHiliteForegroundColor__7IWindowFRC6IColor (PROCL.setHiliteForegroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setId__7IWindowFUl   (PROCL.setId__7IWindowFUl)
+ 0000:00000000  Imp  setInactiveColor__7IWindowFRC6IColor (PROCL.setInactiveColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setLayoutDistorted__7IWindowFUlT1 (PROCL.setLayoutDistorted__7IWindowFUlT1)
+ 0000:00000000  Imp  setLoop__10QuickFlickFi (QUIKFLIK.19)
+ 0000:00000000  Imp  setMovie__10QuickFlickF7IString (QUIKFLIK.5)
+ 0000:00000000  Imp  setOwner__7IWindowFPC7IWindow (PROCL.setOwner__7IWindowFPC7IWindow)
+ 0000:00000000  Imp  setParent__7IWindowFPC7IWindow (PROCL.setParent__7IWindowFPC7IWindow)
+ 0000:00000000  Imp  setRowHeight__16IMultiCellCanvasFUlT1i (PROCL.setRowHeight__16IMultiCellCanvasFUlT1i)
+ 0000:00000000  Imp  setScale__10QuickFlickFf (QUIKFLIK.25)
+ 0000:00000000  Imp  setShadowColor__7IWindowFRC6IColor (PROCL.setShadowColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setStreamDone__10QuickFlickFi (QUIKFLIK.52)
+ 0000:00000000  Imp  setStreamStopped__10QuickFlickFi (QUIKFLIK.13)
+ 0000:00000000  Imp  setStyle__7IWindowFUl (PROCL.setStyle__7IWindowFUl)
+ 0000:00000000  Imp  setText__7IButtonFPCc (PROCL.setText__7IButtonFPCc)
+ 0000:00000000  Imp  setWindow__10QuickFlickF13IWindowHandle (QUIKFLIK.51)
+ 0001:00000C10       setWindow__16QuickFlickPluginF13IWindowHandle
+ 0000:00000000  Imp  shadowColor__7IWindowCFv (PROCL.shadowColor__7IWindowCFv)
+ 0000:00000000  Imp  showPropertiesDialog__10QuickFlickFP7IWindow (QUIKFLIK.26)
+ 0000:00000000  Imp  showSourceEmphasis__7IWindowFi (PROCL.showSourceEmphasis__7IWindowFi)
+ 0000:00000000  Imp  show__7IWindowFi     (PROCL.show__7IWindowFi)
+ 0000:00000000  Imp  shutdown__10QuickFlickFv (QUIKFLIK.29)
+ 0001:000008F0       shutdown__16QuickFlickPluginFv
+ 0000:00000000  Imp  sizeToBitmap__14IBitmapControl (PROCL.sizeToBitmap__14IBitmapControl)
+ 0000:00000000  Imp  sizeTo__7IWindowFRC5ISize (PROCL.sizeTo__7IWindowFRC5ISize)
+ 0000:00000000  Imp  size__7IWindowCFv    (PROCL.size__7IWindowCFv)
+ 0000:00000000  Imp  stopHandlingEventsFor__8IHandlerFP7IWindow (PROCL.stopHandlingEventsFor__8IHandlerFP7IWindow)
+ 0000:00000000  Imp  streamStopped__10QuickFlickFv (QUIKFLIK.58)
+ 0000:00000000  Imp  style__7IWindowCFv   (PROCL.style__7IWindowCFv)
+ 0000:00000000  Imp  subString__7IStringCFUiT1c (PROCL.subString__7IStringCFUiT1c)
+ 0000:00000000  Imp  systemCommand__15ICommandHandlerFR13ICommandEvent (PROCL.systemCommand__15ICommandHandlerFR13ICommandEvent)
+ 0000:00000000  Imp  visibleRectangle__7IWindowCFv (PROCL.visibleRectangle__7IWindowCFv)
+ 0000:00000000  Imp  windowWithHandle__7IWindowFRC13IWindowHandlei (PROCL.windowWithHandle__7IWindowFRC13IWindowHandlei)
+ 0000:00000000  Imp  window__10QuickFlickFv (QUIKFLIK.15)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0001:000002A0       writeReady__16QuickFlickPluginFv
+ 0001:000003F0       write__16QuickFlickPluginFUlPc
+ 0000:00000000  Imp  _CRT_init            (PROCL._CRT_init)
+ 0000:00000000  Imp  _CRT_term            (PROCL._CRT_term)
+ 0001:00001DD8       _DLL_InitTerm
+ 0001:00001F94       _Exception_CPP
+ 0000:00000000  Imp  _PGLOBAL_PTR         (PROCL._PGLOBAL_PTR)
+ 0000:00000000  Imp  _ProfileUnwind32     (PROCL._ProfileUnwind32)
+ 0000:00000000  Imp  __as__7IStringFRC7IString (PROCL.__as__7IStringFRC7IString)
+ 0005:00000028       __ctordtorCurrent
+ 0005:00000008       __ctordtorEnd
+ 0001:00001EB8       __ctordtorInit
+ 0005:00000008       __ctordtorStart
+ 0001:00001E80       __ctordtorTerm
+ 0000:00000000  Imp  __ct__10QuickFlickFv (QUIKFLIK.55)
+ 0000:00000000  Imp  __ct__11IPushButtonFUlP7IWindowT2RC10IRectangleRCQ2_11IPushButton5Style (PROCL.__ct__11IPushButtonFUlP7IWindowT2RC10IRectangleRCQ2_11IPushButton5Style)
+ 0000:00000000  Imp  __ct__11IRefCountedFv (PROCL.__ct__11IRefCountedFv)
+ 0000:00000000  Imp  __ct__14IBitmapControlFUlP7IWindowT2RC11IResourceIdRC10IRectangleRCQ2_14IBitmapControl5Style (PROCL.__ct__14IBitmapControlFUlP7IWindowT2RC11IResourceIdRC10IRectangleRCQ2_14IBitmapControl5Style)
+ 0000:00000000  Imp  __ct__15ICommandHandlerFv (PROCL.__ct__15ICommandHandlerFv)
+ 0000:00000000  Imp  __ct__16IMultiCellCanvasFUlP7IWindowT2RC10IRectangleRCQ2_16IMultiCellCanvas5Style (PROCL.__ct__16IMultiCellCanvasFUlP7IWindowT2RC10IRectangleRCQ2_16IMultiCellCanvas5Style)
+ 0001:00000F50       __ct__16QuickFlickPluginFPcUssPPcT4P12_NPSavedData
+ 0001:000016C6       __ct__17AboutPluginsPanelF13IWindowHandleP10QuickFlick
+ 0000:00000000  Imp  __ct__18IExceptionLocationFPCcT1Ul (PROCL.__ct__18IExceptionLocationFPCcT1Ul)
+ 0000:00000000  Imp  __ct__5IFontFPCcUliT3RC16IPresSpaceHandle (PROCL.__ct__5IFontFPCcUliT3RC16IPresSpaceHandle)
+ 0000:00000000  Imp  __ct__6IColorFQ2_6IColor5Color (PROCL.__ct__6IColorFQ2_6IColor5Color)
+ 0000:00000000  Imp  __ct__7ICanvasFUlP7IWindowT2RC10IRectangleRCQ2_7ICanvas5Style (PROCL.__ct__7ICanvasFUlP7IWindowT2RC10IRectangleRCQ2_7ICanvas5Style)
+ 0000:00000000  Imp  __ct__7IStringFPCc   (PROCL.__ct__7IStringFPCc)
+ 0000:00000000  Imp  __ct__7IStringFUl    (PROCL.__ct__7IStringFUl)
+ 0000:00000000  Imp  __ct__7IStringFv     (PROCL.__ct__7IStringFv)
+ 0000:00000000  Imp  __ct__7IWindowFRC13IWindowHandle (PROCL.__ct__7IWindowFRC13IWindowHandle)
+ 0000:00000000  Imp  __CurrentException   (PROCL.__CurrentException)
+ 0000:00000000  Imp  __dl__FPv            (PROCL.__dl__FPv)
+ 0000:00000000  Imp  __dt__10QuickFlickFv (QUIKFLIK.57)
+ 0000:00000000  Imp  __dt__11IPushButtonFv (PROCL.__dt__11IPushButtonFv)
+ 0000:00000000  Imp  __dt__11IRefCountedFv (PROCL.__dt__11IRefCountedFv)
+ 0000:00000000  Imp  __dt__14IBitmapControlFv (PROCL.__dt__14IBitmapControlFv)
+ 0000:00000000  Imp  __dt__15ICommandHandlerFv (PROCL.__dt__15ICommandHandlerFv)
+ 0000:00000000  Imp  __dt__16IMultiCellCanvasFv (PROCL.__dt__16IMultiCellCanvasFv)
+ 0000:00000000  Imp  __dt__5IFontFv       (PROCL.__dt__5IFontFv)
+ 0000:00000000  Imp  __dt__6IColorFv      (PROCL.__dt__6IColorFv)
+ 0000:00000000  Imp  __dt__7ICanvasFv     (PROCL.__dt__7ICanvasFv)
+ 0000:00000000  Imp  __dt__7IStringFv     (PROCL.__dt__7IStringFv)
+ 0000:00000000  Imp  __dt__7IWindowFv     (PROCL.__dt__7IWindowFv)
+ 0000:00000000  Imp  __get_frame_ptr      (PROCL.__get_frame_ptr)
+ 0000:00000000  Imp  __Invoke__Delete     (PROCL.__Invoke__Delete)
+ 0000:00000000  Imp  __Invoke__Destructor (PROCL.__Invoke__Destructor)
+ 0000:00000000  Imp  __nw__FUi            (PROCL.__nw__FUi)
+ 0000:00000000  Imp  __pl__7IStringCFRC7IString (PROCL.__pl__7IStringCFRC7IString)
+ 0000:00000000  Imp  __RestoreRegsAndJump (PROCL.__RestoreRegsAndJump)
+ 0000:00000000  Imp  __set_frame_ptr      (PROCL.__set_frame_ptr)
+ 0000:00000000  Imp  __wDestructSOMBase   (PROCL.__wDestructSOMBase)
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  DosCloseMutexSem     (DOSCALLS.333)
+ 0000:00000000  Imp  __Invoke__Delete     (PROCL.__Invoke__Delete)
+ 0000:00000000  Imp  __set_frame_ptr      (PROCL.__set_frame_ptr)
+ 0000:00000000  Imp  postEvent__7IWindowCFUlRC10IEventDataT2 (PROCL.postEvent__7IWindowCFUlRC10IEventDataT2)
+ 0000:00000000  Imp  DosCloseEventSem     (DOSCALLS.326)
+ 0000:00000000  Imp  noStyle__7IWindow    (PROCL.noStyle__7IWindow)
+ 0000:00000000  Imp  DosPostEventSem      (DOSCALLS.328)
+ 0000:00000000  Imp  handleException__7IWindowFR10IExceptionR6IEvent (PROCL.handleException__7IWindowFR10IExceptionR6IEvent)
+ 0000:00000000  Imp  __get_frame_ptr      (PROCL.__get_frame_ptr)
+ 0000:00000000  Imp  setAutoplay__10QuickFlickFi (QUIKFLIK.42)
+ 0000:00000000  Imp  size__7IWindowCFv    (PROCL.size__7IWindowCFv)
+ 0000:00000000  Imp  moveTo__7IWindowFRC6IPoint (PROCL.moveTo__7IWindowFRC6IPoint)
+ 0000:00000000  Imp  systemCommand__15ICommandHandlerFR13ICommandEvent (PROCL.systemCommand__15ICommandHandlerFR13ICommandEvent)
+ 0000:00000000  Imp  __ct__7IStringFUl    (PROCL.__ct__7IStringFUl)
+ 0000:00000000  Imp  disabledForegroundColor__7IWindowCFv (PROCL.disabledForegroundColor__7IWindowCFv)
+ 0000:00000000  Imp  calcMinimumSize__7IWindowCFv (PROCL.calcMinimumSize__7IWindowCFv)
+ 0000:00000000  Imp  setOwner__7IWindowFPC7IWindow (PROCL.setOwner__7IWindowFPC7IWindow)
+ 0000:00000000  Imp  resetActiveColor__7IWindowFv (PROCL.resetActiveColor__7IWindowFv)
+ 0000:00000000  Imp  sendEvent__7IWindowCFUlRC10IEventDataT2 (PROCL.sendEvent__7IWindowCFUlRC10IEventDataT2)
+ 0000:00000000  Imp  hideSourceEmphasis__7IWindowFv (PROCL.hideSourceEmphasis__7IWindowFv)
+ 0000:00000000  Imp  backgroundColor__7IWindowCFv (PROCL.backgroundColor__7IWindowCFv)
+ 0000:00000000  Imp  notifyObservers__7IWindowFRC18INotificationEvent (PROCL.notifyObservers__7IWindowFRC18INotificationEvent)
+ 0000:00000000  Imp  __ct__7IStringFPCc   (PROCL.__ct__7IStringFPCc)
+ 0000:00000000  Imp  current__7IThreadFv  (PROCL.current__7IThreadFv)
+ 0000:00000000  Imp  DosCreateMutexSem    (DOSCALLS.331)
+ 0000:00000000  Imp  DosCreateEventSem    (DOSCALLS.324)
+ 0000:00000000  Imp  __ct__7ICanvasFUlP7IWindowT2RC10IRectangleRCQ2_7ICanvas5Style (PROCL.__ct__7ICanvasFUlP7IWindowT2RC10IRectangleRCQ2_7ICanvas5Style)
+ 0000:00000000  Imp  extendedStyle__7IWindowCFv (PROCL.extendedStyle__7IWindowCFv)
+ 0000:00000000  Imp  inactiveColor__7IWindowCFv (PROCL.inactiveColor__7IWindowCFv)
+ 0000:00000000  Imp  isFrameWindow__7IWindowCFv (PROCL.isFrameWindow__7IWindowCFv)
+ 0000:00000000  Imp  _ProfileUnwind32     (PROCL._ProfileUnwind32)
+ 0000:00000000  Imp  sendEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2 (PROCL.sendEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2)
+ 0000:00000000  Imp  removeObserver__7IWindowFR9IObserver (PROCL.removeObserver__7IWindowFR9IObserver)
+ 0000:00000000  Imp  show__7IWindowFi     (PROCL.show__7IWindowFi)
+ 0000:00000000  Imp  isEnabledForNotification__7IWindowCFv (PROCL.isEnabledForNotification__7IWindowCFv)
+ 0000:00000000  Imp  __ct__7IStringFv     (PROCL.__ct__7IStringFv)
+ 0000:00000000  Imp  setDisabledForegroundColor__7IWindowFRC6IColor (PROCL.setDisabledForegroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  desktopWindow__7IWindowFv (PROCL.desktopWindow__7IWindowFv)
+ 0000:00000000  Imp  __dt__6IColorFv      (PROCL.__dt__6IColorFv)
+ 0000:00000000  Imp  releasePresSpace__7IWindowCFRC16IPresSpaceHandle (PROCL.releasePresSpace__7IWindowCFRC16IPresSpaceHandle)
+ 0000:00000000  Imp  __dt__7ICanvasFv     (PROCL.__dt__7ICanvasFv)
+ 0000:00000000  Imp  setDisabledBackgroundColor__7IWindowFRC6IColor (PROCL.setDisabledBackgroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setStyle__7IWindowFUl (PROCL.setStyle__7IWindowFUl)
+ 0000:00000000  Imp  addObserver__7IWindowFR9IObserverRC10IEventData (PROCL.addObserver__7IWindowFR9IObserverRC10IEventData)
+ 0000:00000000  Imp  setRowHeight__16IMultiCellCanvasFUlT1i (PROCL.setRowHeight__16IMultiCellCanvasFUlT1i)
+ 0000:00000000  Imp  dispatchHandlerEvent__15ICommandHandlerFR6IEvent (PROCL.dispatchHandlerEvent__15ICommandHandlerFR6IEvent)
+ 0000:00000000  Imp  font__7IWindowCFv    (PROCL.font__7IWindowCFv)
+ 0000:00000000  Imp  __dt__7IStringFv     (PROCL.__dt__7IStringFv)
+ 0000:00000000  Imp  capturePointer__7IWindowFi (PROCL.capturePointer__7IWindowFi)
+ 0000:00000000  Imp  releasePointer__7IWindowFv (PROCL.releasePointer__7IWindowFv)
+ 0000:00000000  Imp  removeRef__11IRefCountedFv (PROCL.removeRef__11IRefCountedFv)
+ 0000:00000000  Imp  subString__7IStringCFUiT1c (PROCL.subString__7IStringCFUiT1c)
+ 0000:00000000  Imp  postEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2 (PROCL.postEvent__7IWindowCFQ2_7IWindow9EventTypeRC10IEventDataT2)
+ 0000:00000000  Imp  moveSizeTo__7IWindowFRC10IRectangle (PROCL.moveSizeTo__7IWindowFRC10IRectangle)
+ 0000:00000000  Imp  rect__7IWindowCFv    (PROCL.rect__7IWindowCFv)
+ 0000:00000000  Imp  __ct__16IMultiCellCanvasFUlP7IWindowT2RC10IRectangleRCQ2_16IMultiCellCanvas5Style (PROCL.__ct__16IMultiCellCanvasFUlP7IWindowT2RC10IRectangleRCQ2_16IMultiCellCanvas5Style)
+ 0000:00000000  Imp  enable__7IWindowFi   (PROCL.enable__7IWindowFi)
+ 0000:00000000  Imp  foregroundColor__7IWindowCFv (PROCL.foregroundColor__7IWindowCFv)
+ 0000:00000000  Imp  isGroup__7IWindowCFv (PROCL.isGroup__7IWindowCFv)
+ 0000:00000000  Imp  _CRT_term            (PROCL._CRT_term)
+ 0000:00000000  Imp  matchForMnemonic__7IWindowCFUs (PROCL.matchForMnemonic__7IWindowCFUs)
+ 0000:00000000  Imp  style__7IWindowCFv   (PROCL.style__7IWindowCFv)
+ 0000:00000000  Imp  mmioWrite            (MMIO.29)
+ 0000:00000000  Imp  resetDisabledBackgroundColor__7IWindowFv (PROCL.resetDisabledBackgroundColor__7IWindowFv)
+ 0000:00000000  Imp  __ct__5IFontFPCcUliT3RC16IPresSpaceHandle (PROCL.__ct__5IFontFPCcUliT3RC16IPresSpaceHandle)
+ 0000:00000000  Imp  mmioClose            (MMIO.32)
+ 0000:00000000  Imp  setColumnWidth__16IMultiCellCanvasFUlT1i (PROCL.setColumnWidth__16IMultiCellCanvasFUlT1i)
+ 0000:00000000  Imp  refresh__7IWindowFQ2_7IWindow11RefreshType (PROCL.refresh__7IWindowFQ2_7IWindow11RefreshType)
+ 0000:00000000  Imp  setStreamDone__10QuickFlickFi (QUIKFLIK.52)
+ 0000:00000000  Imp  sizeToBitmap__14IBitmapControl (PROCL.sizeToBitmap__14IBitmapControl)
+ 0000:00000000  Imp  disable__8IHandlerFv (PROCL.disable__8IHandlerFv)
+ 0000:00000000  Imp  setParent__7IWindowFPC7IWindow (PROCL.setParent__7IWindowFPC7IWindow)
+ 0000:00000000  Imp  enable__8IHandlerFi  (PROCL.enable__8IHandlerFi)
+ 0000:00000000  Imp  enableDefault__11IPushButtonFi (PROCL.enableDefault__11IPushButtonFi)
+ 0000:00000000  Imp  disable__7IWindowFv  (PROCL.disable__7IWindowFv)
+ 0000:00000000  Imp  __ct__10QuickFlickFv (QUIKFLIK.55)
+ 0000:00000000  Imp  __nw__FUi            (PROCL.__nw__FUi)
+ 0000:00000000  Imp  isValid__7IWindowCFv (PROCL.isValid__7IWindowCFv)
+ 0000:00000000  Imp  __dl__FPv            (PROCL.__dl__FPv)
+ 0000:00000000  Imp  resetDisabledForegroundColor__7IWindowFv (PROCL.resetDisabledForegroundColor__7IWindowFv)
+ 0000:00000000  Imp  asString__6IVBaseCFv (PROCL.asString__6IVBaseCFv)
+ 0000:00000000  Imp  streamStopped__10QuickFlickFv (QUIKFLIK.58)
+ 0000:00000000  Imp  __dt__10QuickFlickFv (QUIKFLIK.57)
+ 0000:00000000  Imp  refresh__7IWindowFi  (PROCL.refresh__7IWindowFi)
+ 0000:00000000  Imp  _CRT_init            (PROCL._CRT_init)
+ 0000:00000000  Imp  __ct__7IWindowFRC13IWindowHandle (PROCL.__ct__7IWindowFRC13IWindowHandle)
+ 0000:00000000  Imp  resetHiliteBackgroundColor__7IWindowFv (PROCL.resetHiliteBackgroundColor__7IWindowFv)
+ 0000:00000000  Imp  __dt__11IRefCountedFv (PROCL.__dt__11IRefCountedFv)
+ 0000:00000000  Imp  setForegroundColor__7IWindowFRC6IColor (PROCL.setForegroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  __ct__11IPushButtonFUlP7IWindowT2RC10IRectangleRCQ2_11IPushButton5Style (PROCL.__ct__11IPushButtonFUlP7IWindowT2RC10IRectangleRCQ2_11IPushButton5Style)
+ 0000:00000000  Imp  setExtendedStyle__7IWindowFUl (PROCL.setExtendedStyle__7IWindowFUl)
+ 0000:00000000  Imp  visibleRectangle__7IWindowCFv (PROCL.visibleRectangle__7IWindowCFv)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  setBackgroundColor__7IWindowFRC6IColor (PROCL.setBackgroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  resetBorderColor__7IWindowFv (PROCL.resetBorderColor__7IWindowFv)
+ 0000:00000000  Imp  enableNotification__7IWindowFi (PROCL.enableNotification__7IWindowFi)
+ 0000:00000000  Imp  resetShadowColor__7IWindowFv (PROCL.resetShadowColor__7IWindowFv)
+ 0000:00000000  Imp  positionBehindSibling__7IWindowFRC13IWindowHandle (PROCL.positionBehindSibling__7IWindowFRC13IWindowHandle)
+ 0000:00000000  Imp  mmioOpen             (MMIO.27)
+ 0000:00000000  Imp  DosRequestMutexSem   (DOSCALLS.334)
+ 0000:00000000  Imp  setWindow__10QuickFlickF13IWindowHandle (QUIKFLIK.51)
+ 0000:00000000  Imp  __wDestructSOMBase   (PROCL.__wDestructSOMBase)
+ 0000:00000000  Imp  setFocus__7IWindowFv (PROCL.setFocus__7IWindowFv)
+ 0000:00000000  Imp  __ct__6IColorFQ2_6IColor5Color (PROCL.__ct__6IColorFQ2_6IColor5Color)
+ 0000:00000000  Imp  mmioSeek             (MMIO.30)
+ 0000:00000000  Imp  __CurrentException   (PROCL.__CurrentException)
+ 0000:00000000  Imp  defaultStyle__11IPushButtonFv (PROCL.defaultStyle__11IPushButtonFv)
+ 0000:00000000  Imp  layoutAdjustment__7IWindowCFv (PROCL.layoutAdjustment__7IWindowCFv)
+ 0000:00000000  Imp  setId__7IWindowFUl   (PROCL.setId__7IWindowFUl)
+ 0000:00000000  Imp  __ct__11IRefCountedFv (PROCL.__ct__11IRefCountedFv)
+ 0000:00000000  Imp  resetHiliteForegroundColor__7IWindowFv (PROCL.resetHiliteForegroundColor__7IWindowFv)
+ 0000:00000000  Imp  __dt__7IWindowFv     (PROCL.__dt__7IWindowFv)
+ 0000:00000000  Imp  setAutoDestroyWindow__7IWindowFi (PROCL.setAutoDestroyWindow__7IWindowFi)
+ 0000:00000000  Imp  resetBackgroundColor__7IWindowFv (PROCL.resetBackgroundColor__7IWindowFv)
+ 0000:00000000  Imp  window__10QuickFlickFv (QUIKFLIK.15)
+ 0000:00000000  Imp  __ct__15ICommandHandlerFv (PROCL.__ct__15ICommandHandlerFv)
+ 0000:00000000  Imp  asDebugInfo__7IWindowCFv (PROCL.asDebugInfo__7IWindowCFv)
+ 0000:00000000  Imp  lowerCase__7IStringFv (PROCL.lowerCase__7IStringFv)
+ 0000:00000000  Imp  __dt__14IBitmapControlFv (PROCL.__dt__14IBitmapControlFv)
+ 0000:00000000  Imp  isLayoutDistorted__7IWindowCFUl (PROCL.isLayoutDistorted__7IWindowCFUl)
+ 0000:00000000  Imp  postEvent__7IWindowCFRC6IEvent (PROCL.postEvent__7IWindowCFRC6IEvent)
+ 0000:00000000  Imp  addRef__11IRefCountedFv (PROCL.addRef__11IRefCountedFv)
+ 0000:00000000  Imp  setLayoutDistorted__7IWindowFUlT1 (PROCL.setLayoutDistorted__7IWindowFUlT1)
+ 0000:00000000  Imp  enableUpdate__7IWindowFi (PROCL.enableUpdate__7IWindowFi)
+ 0000:00000000  Imp  IExcept__throwLibraryError__FUlRC18IExceptionLocationQ2_10IErrorInfo13ExceptionTypeQ2_10IException8SeverityPCc (PROCL.IExcept__throwLibraryError__FUlRC18IExceptionLocationQ2_10IErrorInfo13ExceptionTypeQ2_10IException8SeverityPCc)
+ 0000:00000000  Imp  defaultStyle__14IBitmapControlFv (PROCL.defaultStyle__14IBitmapControlFv)
+ 0000:00000000  Imp  asDebugInfo__6IVBaseCFv (PROCL.asDebugInfo__6IVBaseCFv)
+ 0000:00000000  Imp  __as__7IStringFRC7IString (PROCL.__as__7IStringFRC7IString)
+ 0000:00000000  Imp  activeColor__7IWindowCFv (PROCL.activeColor__7IWindowCFv)
+ 0000:00000000  Imp  borderColor__7IWindowCFv (PROCL.borderColor__7IWindowCFv)
+ 0000:00000000  Imp  shutdown__10QuickFlickFv (QUIKFLIK.29)
+ 0000:00000000  Imp  defaultStyle__7ICanvasFv (PROCL.defaultStyle__7ICanvasFv)
+ 0000:00000000  Imp  convertToGUIStyle__7IWindowCFRC8IBitFlagi (PROCL.convertToGUIStyle__7IWindowCFRC8IBitFlagi)
+ 0000:00000000  Imp  shadowColor__7IWindowCFv (PROCL.shadowColor__7IWindowCFv)
+ 0000:00000000  Imp  __dt__5IFontFv       (PROCL.__dt__5IFontFv)
+ 0000:00000000  Imp  asString__8IHandlerCFv (PROCL.asString__8IHandlerCFv)
+ 0000:00000000  Imp  notifyObservers__7IWindowFRCPCc (PROCL.notifyObservers__7IWindowFRCPCc)
+ 0000:00000000  Imp  setHiliteBackgroundColor__7IWindowFRC6IColor (PROCL.setHiliteBackgroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  setFullPercent__12QFControllerFf (QUIKFLIK.16)
+ 0000:00000000  Imp  setLoop__10QuickFlickFi (QUIKFLIK.19)
+ 0000:00000000  Imp  __dt__11IPushButtonFv (PROCL.__dt__11IPushButtonFv)
+ 0000:00000000  Imp  setDetentPercent__12QFControllerFf (QUIKFLIK.20)
+ 0000:00000000  Imp  hasPointerCaptured__7IWindowCFv (PROCL.hasPointerCaptured__7IWindowCFv)
+ 0000:00000000  Imp  _PGLOBAL_PTR         (PROCL._PGLOBAL_PTR)
+ 0000:00000000  Imp  positionOnSiblings__7IWindowFv (PROCL.positionOnSiblings__7IWindowFv)
+ 0000:00000000  Imp  presSpace__7IWindowCFv (PROCL.presSpace__7IWindowCFv)
+ 0000:00000000  Imp  windowWithHandle__7IWindowFRC13IWindowHandlei (PROCL.windowWithHandle__7IWindowFRC13IWindowHandlei)
+ 0000:00000000  Imp  __ct__18IExceptionLocationFPCcT1Ul (PROCL.__ct__18IExceptionLocationFPCcT1Ul)
+ 0000:00000000  Imp  sendEvent__7IWindowCFRC6IEvent (PROCL.sendEvent__7IWindowCFRC6IEvent)
+ 0000:00000000  Imp  showPropertiesDialog__10QuickFlickFP7IWindow (QUIKFLIK.26)
+ 0000:00000000  Imp  position__7IWindowCFv (PROCL.position__7IWindowCFv)
+ 0000:00000000  Imp  isTabStop__7IWindowCFv (PROCL.isTabStop__7IWindowCFv)
+ 0000:00000000  Imp  setScale__10QuickFlickFf (QUIKFLIK.25)
+ 0000:00000000  Imp  resetFont__7IWindowFv (PROCL.resetFont__7IWindowFv)
+ 0000:00000000  Imp  resetInactiveColor__7IWindowFv (PROCL.resetInactiveColor__7IWindowFv)
+ 0000:00000000  Imp  setHiliteForegroundColor__7IWindowFRC6IColor (PROCL.setHiliteForegroundColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  resetForegroundColor__7IWindowFv (PROCL.resetForegroundColor__7IWindowFv)
+ 0000:00000000  Imp  addToCell__16IMultiCellCanvasFP7IWindowUlN32 (PROCL.addToCell__16IMultiCellCanvasFP7IWindowUlN32)
+ 0000:00000000  Imp  DosGetDateTime       (DOSCALLS.230)
+ 0000:00000000  Imp  showSourceEmphasis__7IWindowFi (PROCL.showSourceEmphasis__7IWindowFi)
+ 0000:00000000  Imp  setMovie__10QuickFlickF7IString (QUIKFLIK.5)
+ 0000:00000000  Imp  removeAllObservers__7IWindowFv (PROCL.removeAllObservers__7IWindowFv)
+ 0000:00000000  Imp  defaultProcedure__8IHandlerFR6IEvent (PROCL.defaultProcedure__8IHandlerFR6IEvent)
+ 0000:00000000  Imp  __dt__15ICommandHandlerFv (PROCL.__dt__15ICommandHandlerFv)
+ 0000:00000000  Imp  __dt__16IMultiCellCanvasFv (PROCL.__dt__16IMultiCellCanvasFv)
+ 0000:00000000  Imp  parentSize__7IWindowCFv (PROCL.parentSize__7IWindowCFv)
+ 0000:00000000  Imp  WinQueryWindow       (PMWIN.834)
+ 0000:00000000  Imp  nativeRect__7IWindowCFv (PROCL.nativeRect__7IWindowCFv)
+ 0000:00000000  Imp  __pl__7IStringCFRC7IString (PROCL.__pl__7IStringCFRC7IString)
+ 0000:00000000  Imp  stopHandlingEventsFor__8IHandlerFP7IWindow (PROCL.stopHandlingEventsFor__8IHandlerFP7IWindow)
+ 0000:00000000  Imp  hiliteForegroundColor__7IWindowCFv (PROCL.hiliteForegroundColor__7IWindowCFv)
+ 0000:00000000  Imp  hide__7IWindowFv     (PROCL.hide__7IWindowFv)
+ 0000:00000000  Imp  handleEventsFor__8IHandlerFP7IWindow (PROCL.handleEventsFor__8IHandlerFP7IWindow)
+ 0000:00000000  Imp  setFont__7IWindowFRC5IFont (PROCL.setFont__7IWindowFRC5IFont)
+ 0000:00000000  Imp  controller__10QuickFlickFv (QUIKFLIK.41)
+ 0000:00000000  Imp  sizeTo__7IWindowFRC5ISize (PROCL.sizeTo__7IWindowFRC5ISize)
+ 0000:00000000  Imp  defaultPushButton__7IWindowCFv (PROCL.defaultPushButton__7IWindowCFv)
+ 0000:00000000  Imp  disableUpdate__7IWindowFv (PROCL.disableUpdate__7IWindowFv)
+ 0000:00000000  Imp  lastIndexOf__7IStringCFcUi (PROCL.lastIndexOf__7IStringCFcUi)
+ 0000:00000000  Imp  initialize__10QuickFlickFv (QUIKFLIK.38)
+ 0000:00000000  Imp  disabledBackgroundColor__7IWindowCFv (PROCL.disabledBackgroundColor__7IWindowCFv)
+ 0000:00000000  Imp  __RestoreRegsAndJump (PROCL.__RestoreRegsAndJump)
+ 0000:00000000  Imp  create__7IWindowFUlPCcT1T2RC13IWindowHandleT5RC10IRectanglePCvT8Q2_7IWindow12SiblingOrder (PROCL.create__7IWindowFUlPCcT1T2RC13IWindowHandleT5RC10IRectanglePCvT8Q2_7IWindow12SiblingOrder)
+ 0000:00000000  Imp  setInactiveColor__7IWindowFRC6IColor (PROCL.setInactiveColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  minimum__5IPairCFRC5IPair (PROCL.minimum__5IPairCFRC5IPair)
+ 0000:00000000  Imp  setActiveColor__7IWindowFRC6IColor (PROCL.setActiveColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  disableNotification__7IWindowFv (PROCL.disableNotification__7IWindowFv)
+ 0000:00000000  Imp  player__10QuickFlickFv (QUIKFLIK.11)
+ 0000:00000000  Imp  asString__7IWindowCFv (PROCL.asString__7IWindowCFv)
+ 0000:00000000  Imp  handle__7IWindowCFv  (PROCL.handle__7IWindowCFv)
+ 0000:00000000  Imp  createController__10QuickFlickFf (QUIKFLIK.2)
+ 0000:00000000  Imp  setBorderColor__7IWindowFRC6IColor (PROCL.setBorderColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  __ct__14IBitmapControlFUlP7IWindowT2RC11IResourceIdRC10IRectangleRCQ2_14IBitmapControl5Style (PROCL.__ct__14IBitmapControlFUlP7IWindowT2RC11IResourceIdRC10IRectangleRCQ2_14IBitmapControl5Style)
+ 0000:00000000  Imp  setStreamStopped__10QuickFlickFi (QUIKFLIK.13)
+ 0000:00000000  Imp  setShadowColor__7IWindowFRC6IColor (PROCL.setShadowColor__7IWindowFRC6IColor)
+ 0000:00000000  Imp  asDebugInfo__8IHandlerCFv (PROCL.asDebugInfo__8IHandlerCFv)
+ 0000:00000000  Imp  applyBidiSettings__7IWindowFRCQ2_7IWindow12BidiSettingsiT2 (PROCL.applyBidiSettings__7IWindowFRCQ2_7IWindow12BidiSettingsiT2)
+ 0000:00000000  Imp  __Invoke__Destructor (PROCL.__Invoke__Destructor)
+ 0000:00000000  Imp  refresh__7IWindowFRC10IRectanglei (PROCL.refresh__7IWindowFRC10IRectanglei)
+ 0000:00000000  Imp  observerList__7IWindowCFv (PROCL.observerList__7IWindowCFv)
+ 0000:00000000  Imp  hiliteBackgroundColor__7IWindowCFv (PROCL.hiliteBackgroundColor__7IWindowCFv)
+ 0000:00000000  Imp  setText__7IButtonFPCc (PROCL.setText__7IButtonFPCc)
+ 0000:00000000  Imp  positionBehindSiblings__7IWindowFv (PROCL.positionBehindSiblings__7IWindowFv)
+ 0000:00000000  Imp  maximum__5IPairCFRC5IPair (PROCL.maximum__5IPairCFRC5IPair)
+ 0000:00000000  Imp  resourceLibrary__10QuickFlickFv (QUIKFLIK.59)
+ 0001:00000010       NP_GetEntryPoints
+ 0001:000000B0       NP_Initialize
+ 0001:00000100       NP_Shutdown
+ 0001:000002A0       writeReady__16QuickFlickPluginFv
+ 0001:00000350       destroyStream__16QuickFlickPluginFs
+ 0001:000003F0       write__16QuickFlickPluginFUlPc
+ 0001:00000706       newStream__16QuickFlickPluginF7IStringUl
+ 0001:000008F0       shutdown__16QuickFlickPluginFv
+ 0001:00000978       initialize__16QuickFlickPluginFv
+ 0001:00000C10       setWindow__16QuickFlickPluginF13IWindowHandle
+ 0001:00000F50       __ct__16QuickFlickPluginFPcUssPPcT4P12_NPSavedData
+ 0001:000016C6       __ct__17AboutPluginsPanelF13IWindowHandleP10QuickFlick
+ 0001:00001B20       NPP_Print
+ 0001:00001B30       NPP_StreamAsFile
+ 0001:00001B40       NPP_Destroy
+ 0001:00001B90       NPP_DestroyStream
+ 0001:00001BC0       NPP_Write
+ 0001:00001BF2       NPP_WriteReady
+ 0001:00001C0E       NPP_NewStream
+ 0001:00001CD0       NPP_New
+ 0001:00001D98       NPP_Shutdown
+ 0001:00001DA0       NPP_Initialize
+ 0001:00001DD8       _DLL_InitTerm
+ 0001:00001E40       NPP_SetWindow
+ 0001:00001E80       __ctordtorTerm
+ 0001:00001EB8       __ctordtorInit
+ 0001:00001F94       _Exception_CPP
+ 0005:00000008       __ctordtorEnd
+ 0005:00000008       __ctordtorStart
+ 0005:0000001C       mainThreadPriorityBoosted__16QuickFlickPlugin
+ 0005:00000028       __ctordtorCurrent
+
+Program entry point at 0001:00001DD8

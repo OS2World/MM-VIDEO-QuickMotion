@@ -1,0 +1,11 @@
+LIBRARY PRMOOV INITINSTANCE
+DESCRIPTION 'PracticeMooV Class Library'
+PROTMODE
+DATA MULTIPLE NONSHARED LOADONCALL
+EXPORTS
+   PracticeMooVCClassData
+   PracticeMooVClassData
+   PracticeMooVNewClass
+   M_PracticeMooVCClassData
+   M_PracticeMooVClassData
+   M_PracticeMooVNewClass

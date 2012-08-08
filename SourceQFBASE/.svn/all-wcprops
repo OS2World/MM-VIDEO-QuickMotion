@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE
+END
+qfbase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfbase.cpp
+END
+quikflik.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/quikflik.h
+END
+qfbase.LIB
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfbase.LIB
+END
+qfbase.mak
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfbase.mak
+END
+qfbase.obj
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfbase.obj
+END
+copyuser.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/copyuser.cmd
+END
+qfbase.dll
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfbase.dll
+END
+qfwrend.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfwrend.hpp
+END
+qfbase.$mm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfbase.$mm
+END
+qfbase.def
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/qmos2/!svn/ver/17/trunk/SourceQFBASE/qfbase.def
+END
