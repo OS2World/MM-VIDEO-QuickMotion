@@ -1,0 +1,9 @@
+#include "imagecod.h"
+
+RCDATA NAME_TABLE
+BEGIN
+        CODEC_ID,            "QuickMotion Photo                          \0",
+        0,                   "\0"
+END
+
+

@@ -1,0 +1,23 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..cpp .obj 
+:TARGET.all
+:DEPENDENCY.
+.\ima4.lib
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Ge- /G5 /Ft- /C %s
+:RULE.{F:\PRACTICE\QUICKMO\SourceIMA4}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Ge- /G5 /Ft- /C %s
+:TARGET..\ima4.lib
+:DEPENDENCY.
+.\ima4.obj
+:ACTION.Lib::Library Tool
+:COMMAND.
+ilib.exe  /nol ima4.lib @ima4.rf ;
+:TARGET..\ima4.obj
+:DEPENDENCY.
+F:\PRACTICE\QUICKMO\SourceIMA4\ima4.cpp
+{F:\PRACTICE\QUICKMO\SourceIMA4;$(INCLUDE);}ima4.h

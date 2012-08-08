@@ -1,0 +1,54 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..cpp .obj .rc .res 
+:TARGET.all
+:DEPENDENCY.
+.\qmmoov.dll
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /Gn /C %s
+:RULE.{F:\PRACTICE\QUICKMO\SourceQMMOOV}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /Gn /C %s
+:RULE..rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:RULE.{F:\PRACTICE\QUICKMO\SourceQMMOOV}.rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:TARGET..\qmmoov.dll
+:DEPENDENCY.
+.\moov.obj
+.\qmmoov.res
+{$(LIB)}OS2386.LIB
+{$(LIB)}PROCL.LIB
+{$(LIB)}MMPM2.LIB
+{$(LIB)}QMMOOV.DEF
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+/Tdp 
+ /O /Gm /Gd /Ge- /G5 /Gn 
+ /B" /exepack:2 /packd /optfunc /noe /nod"
+ /Feqmmoov.dll 
+ OS2386.LIB 
+ PROCL.LIB 
+ MMPM2.LIB 
+ QMMOOV.DEF
+ .\moov.obj
+<<
+:ACTION.Bind::Resource Bind
+:COMMAND.
+rc.exe .\qmmoov.res qmmoov.dll
+:TARGET..\moov.obj
+:DEPENDENCY.
+F:\PRACTICE\QUICKMO\SourceQMMOOV\moov.cpp
+{F:\PRACTICE\QUICKMO\SourceQMMOOV;$(INCLUDE);}moov.hpp
+{F:\PRACTICE\QUICKMO\SourceQMMOOV;$(INCLUDE);}qmmoov.h
+:TARGET..\qmmoov.res
+:DEPENDENCY.
+F:\PRACTICE\QUICKMO\SourceQMMOOV\qmmoov.rc
+{F:\PRACTICE\QUICKMO\SourceQMMOOV;$(INCLUDE)}qmmoov.h

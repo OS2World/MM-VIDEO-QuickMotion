@@ -1,0 +1,65 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..cpp .obj .rc .res 
+:TARGET.all
+:DEPENDENCY.
+.\rawcodec.dll
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /Gn /C %s
+:RULE.{F:\PRACTICE\QUICKMO\SourceRC}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /Gn /C %s
+:RULE..rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:RULE.{F:\PRACTICE\QUICKMO\SourceRC}.rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:TARGET..\rawcodec.dll
+:DEPENDENCY.
+.\rawclass.obj
+.\rawcodec.obj
+.\rawcodec.res
+{$(LIB)}OS2386.LIB
+{$(LIB)}PROCL.LIB
+{$(LIB)}IMAGECOD.LIB
+{$(LIB)}MMPM2.LIB
+{$(LIB)}RAWCODEC.DEF
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+ /B" /exepack:2 /packd /optfunc /noe /nod"
+ /Ferawcodec.dll 
+ OS2386.LIB 
+ PROCL.LIB 
+ IMAGECOD.LIB 
+ MMPM2.LIB 
+ RAWCODEC.DEF
+ .\rawclass.obj
+ .\rawcodec.obj
+<<
+:ACTION.Bind::Resource Bind
+:COMMAND.
+rc.exe .\rawcodec.res rawcodec.dll
+:TARGET..\rawclass.obj
+:DEPENDENCY.
+F:\PRACTICE\QUICKMO\SourceRC\rawclass.cpp
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}rawcodec.h
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}rawclass.hpp
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}imagecod.hpp
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}imagecod.h
+:TARGET..\rawcodec.obj
+:DEPENDENCY.
+F:\PRACTICE\QUICKMO\SourceRC\rawcodec.cpp
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}rawcodec.h
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}rawclass.hpp
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}imagecod.hpp
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE);}imagecod.h
+:TARGET..\rawcodec.res
+:DEPENDENCY.
+F:\PRACTICE\QUICKMO\SourceRC\rawcodec.rc
+{F:\PRACTICE\QUICKMO\SourceRC;$(INCLUDE)}imagecod.h

@@ -1,0 +1,85 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..cpp .obj .rc .res 
+:TARGET.all
+:DEPENDENCY.
+.\npqkfl.dll
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /C %s
+:RULE.{F:\PRACTICE\QuickFlick\SourceNPQKFL}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /C %s
+:RULE..rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:RULE.{F:\PRACTICE\QuickFlick\SourceNPQKFL}.rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:TARGET..\npqkfl.dll
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceNPQKFL\npos2.obj
+.\qfplugin.obj
+.\about.obj
+.\npqkfl.obj
+.\npqkfl.res
+{$(LIB)}PROCL.LIB
+{$(LIB)}OS2386.LIB
+{$(LIB)}MMPM2.LIB
+{$(LIB)}QUIKFLIK.LIB
+{$(LIB)}NPQKFL.DEF
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+/Tdp 
+ /O /Gm /Gd /Ge- /G5 
+ /B" /exepack:2 /packd /optfunc /noe /nod"
+ /Fenpqkfl.dll 
+ PROCL.LIB 
+ OS2386.LIB 
+ MMPM2.LIB 
+ QUIKFLIK.LIB 
+ NPQKFL.DEF
+ F:\PRACTICE\QuickFlick\SourceNPQKFL\npos2.obj
+ .\qfplugin.obj
+ .\about.obj
+ .\npqkfl.obj
+<<
+:ACTION.Bind::Resource Bind
+:COMMAND.
+rc.exe .\npqkfl.res npqkfl.dll
+:TARGET..\npqkfl.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceNPQKFL\npqkfl.cpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}npqkfl.h
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}qfplugin.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}quikflik.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}pluginio.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}about.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}quikflik.h
+:TARGET..\about.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceNPQKFL\about.cpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}npqkfl.h
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}quikflik.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}about.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}quikflik.h
+:TARGET..\qfplugin.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceNPQKFL\qfplugin.cpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}npqkfl.h
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}qfplugin.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}qfcontrol.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}qfplayer.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}quikflik.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}pluginio.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}about.hpp
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE);}quikflik.h
+:TARGET..\npqkfl.res
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourceNPQKFL\npqkfl.rc
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE)}NPQKFL.ICO
+{F:\PRACTICE\QuickFlick\SourceNPQKFL;$(INCLUDE)}npqkfl.h

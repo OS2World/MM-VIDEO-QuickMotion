@@ -1,0 +1,185 @@
+
+ PRNSCP
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000F48H CODE32                 CODE 32-bit
+	at offset 00000000 00150H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\storefil.obj (storefil.cpp)
+	at offset 00000150 0014AH bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\storefmt.obj (storefmt.cpp)
+	at offset 000002a0 0036BH bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.obj (navifile.cpp)
+	at offset 00000610 00054H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifmt.obj (navifmt.cpp)
+	at offset 00000670 002EDH bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\prnscp.obj (prnscp.cpp)
+	at offset 00000960 00111H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\crt\ctordtor.c)
+	at offset 00000a74 004D2H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\front\cxxd\lib\except.cpp)
+
+ 0001:00000F50 000000044H EH_CODE                CODE 32-bit
+	at offset 00000000 00041H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.obj (navifile.cpp)
+
+ 0002:00000000 000000020H CONST32_RO             CONST 32-bit
+	at offset 00000000 0001FH bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.obj (navifile.cpp)
+
+ 0003:00000000 000000070H EH_DATA                CONST 32-bit
+	at offset 00000000 00054H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.obj (navifile.cpp)
+	at offset 00000054 0001CH bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\prnscp.obj (prnscp.cpp)
+
+ 0004:00000000 000000138H _VFT                   CONST 32-bit
+	at offset 00000000 00050H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\storefil.obj (storefil.cpp)
+	at offset 00000050 00030H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\storefmt.obj (storefmt.cpp)
+	at offset 00000080 00088H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.obj (navifile.cpp)
+	at offset 00000108 00030H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifmt.obj (navifmt.cpp)
+
+ 0005:00000000 000000030H DATA32                 DATA 32-bit
+	at offset 00000000 00008H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\storefil.obj (storefil.cpp)
+	at offset 00000008 00008H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\storefmt.obj (storefmt.cpp)
+	at offset 00000010 00008H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.obj (navifile.cpp)
+	at offset 00000018 00008H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifmt.obj (navifmt.cpp)
+	at offset 00000020 00008H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\prnscp.obj (prnscp.cpp)
+	at offset 00000028 00004H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\crt\ctordtor.c)
+	at offset 0000002c 00004H bytes from F:\Development\Library\PROCL.LIB (d:\swordcsd6\crt\dllstub.asm)
+
+ 0005:00000030 000000000H CTOR_DTOR1             DATA 32-bit
+
+ 0005:00000030 000000000H CTOR_DTOR2             DATA 32-bit
+
+ 0005:00000030 000000000H CTOR_DTOR3             DATA 32-bit
+
+ 0005:00000030 000000000H EDC1                   EDC_CLASS 32-bit
+
+ 0005:00000030 000000000H EDC2                   EDC_CLASS 32-bit
+
+ 0005:00000030 000000000H EDC3                   EDC_CLASS 32-bit
+
+ 0005:00000030 000000010H BSS32                  BSS 32-bit
+	at offset 00000000 0000CH bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.obj (navifile.cpp)
+	at offset 0000000c 00004H bytes from F:\PRACTICE\QuickFlick\SourcePRNSCP\prnscp.obj (prnscp.cpp)
+
+ 0005:00000040 000000004H c_common               BSS 32-bit
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0005:0   DGROUP
+
+ Address       Export                  Alias
+
+ 0001:00000820 MM_Message              MM_Message
+ 0001:000007EC _DLL_InitTerm           _DLL_InitTerm
+
+  Address         Publics by Name
+
+ 0000:00000000  Imp  addLocation__10IExceptionFRC18IExceptionLocation (PROCL.addLocation__10IExceptionFRC18IExceptionLocation)
+ 0001:00000032       defaultResponse__17StorageSystemFileFUslT2
+ 0001:00000150       defaultResponse__19StorageSystemFormatFv
+ 0001:00000048       dispatchMessage__17StorageSystemFileFUslT2
+ 0001:000001FC       dispatchMessage__19StorageSystemFormatFUslT2
+ 0000:00000000  Imp  DosFreeResource      (DOSCALLS.353)
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  DosRequestMutexSem   (DOSCALLS.334)
+ 0000:00000000  Imp  DosResetEventSem     (DOSCALLS.327)
+ 0000:00000000  Imp  DosWaitEventSem      (DOSCALLS.329)
+ 0001:00000170       getFormatInfo__19StorageSystemFormatFP13_MMFORMATINFO
+ 0001:00000156       getFormatName__19StorageSystemFormatFPcl
+ 0001:000006D0       GetFormatStringLength__FlPl
+ 0001:00000704       GetFormatString__FlPcT1
+ 0001:00000670       GetNLSData
+ 0000:00000000  Imp  isRecoverable__10IExceptionCFv (PROCL.isRecoverable__10IExceptionCFv)
+ 0000:00000000  Imp  logExceptionData__10IExceptionFv (PROCL.logExceptionData__10IExceptionFv)
+ 0000:00000000  Imp  mmioDetermineSSIOProc (MMIO.88)
+ 0000:00000000  Imp  mmioGetInfo          (MMIO.39)
+ 0000:00000000  Imp  mmioRead             (MMIO.28)
+ 0000:00000000  Imp  mmioSeek             (MMIO.30)
+ 0001:00000820       MM_Message
+ 0000:00000000  Imp  name__10IExceptionCFv (PROCL.name__10IExceptionCFv)
+ 0001:0000002E       setFileInfo__17StorageSystemFileFP9_MMIOINFO
+ 0000:00000000  Imp  strtol               (PROCL.strtol)
+ 0000:00000000  Imp  terminate__10IExceptionFv (PROCL.terminate__10IExceptionFv)
+ 0000:00000000  Imp  _CRT_init            (PROCL._CRT_init)
+ 0000:00000000  Imp  _CRT_term            (PROCL._CRT_term)
+ 0001:000007EC       _DLL_InitTerm
+ 0001:00000A74       _Exception_CPP
+ 0000:00000000  Imp  _PGLOBAL_PTR         (PROCL._PGLOBAL_PTR)
+ 0000:00000000  Imp  _ProfileUnwind32     (PROCL._ProfileUnwind32)
+ 0005:00000040       __ctordtorCurrent
+ 0005:00000030       __ctordtorEnd
+ 0001:00000998       __ctordtorInit
+ 0005:00000030       __ctordtorStart
+ 0001:00000960       __ctordtorTerm
+ 0000:00000000  Imp  __ct__10IExceptionFPCcUlQ2_10IException8Severity (PROCL.__ct__10IExceptionFPCcUlQ2_10IException8Severity)
+ 0001:00000020       __ct__17StorageSystemFileFv
+ 0000:00000000  Imp  __ct__7IStringFPCc   (PROCL.__ct__7IStringFPCc)
+ 0000:00000000  Imp  __CurrentException   (PROCL.__CurrentException)
+ 0000:00000000  Imp  __dl__FPv            (PROCL.__dl__FPv)
+ 0000:00000000  Imp  __dt__10IExceptionFv (PROCL.__dt__10IExceptionFv)
+ 0000:00000000  Imp  __dt__7IStringFv     (PROCL.__dt__7IStringFv)
+ 0000:00000000  Imp  __get_frame_ptr      (PROCL.__get_frame_ptr)
+ 0000:00000000  Imp  __Invoke__Delete     (PROCL.__Invoke__Delete)
+ 0000:00000000  Imp  __Invoke__Destructor (PROCL.__Invoke__Destructor)
+ 0000:00000000  Imp  __nw__FUi            (PROCL.__nw__FUi)
+ 0000:00000000  Imp  __PureVirtualCalled  (PROCL.__PureVirtualCalled)
+ 0000:00000000  Imp  __RestoreRegsAndJump (PROCL.__RestoreRegsAndJump)
+ 0000:00000000  Imp  __set_frame_ptr      (PROCL.__set_frame_ptr)
+ 0000:00000000  Imp  __Throw              (PROCL.__Throw)
+ 0004:00000080       __vft13NavigatorFile17StorageSystemFile
+ 0004:00000108       __vft15NavigatorFormat19StorageSystemFormat
+ 0000:00000000  Imp  __wDestructSOMBase   (PROCL.__wDestructSOMBase)
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  __nw__FUi            (PROCL.__nw__FUi)
+ 0000:00000000  Imp  terminate__10IExceptionFv (PROCL.terminate__10IExceptionFv)
+ 0000:00000000  Imp  DosResetEventSem     (DOSCALLS.327)
+ 0000:00000000  Imp  DosGetResource       (DOSCALLS.352)
+ 0000:00000000  Imp  __set_frame_ptr      (PROCL.__set_frame_ptr)
+ 0000:00000000  Imp  _CRT_term            (PROCL._CRT_term)
+ 0000:00000000  Imp  __ct__7IStringFPCc   (PROCL.__ct__7IStringFPCc)
+ 0000:00000000  Imp  __Invoke__Delete     (PROCL.__Invoke__Delete)
+ 0000:00000000  Imp  __ct__10IExceptionFPCcUlQ2_10IException8Severity (PROCL.__ct__10IExceptionFPCcUlQ2_10IException8Severity)
+ 0000:00000000  Imp  __dt__10IExceptionFv (PROCL.__dt__10IExceptionFv)
+ 0000:00000000  Imp  strtol               (PROCL.strtol)
+ 0000:00000000  Imp  DosFreeResource      (DOSCALLS.353)
+ 0000:00000000  Imp  __dt__7IStringFv     (PROCL.__dt__7IStringFv)
+ 0000:00000000  Imp  _CRT_init            (PROCL._CRT_init)
+ 0000:00000000  Imp  DosWaitEventSem      (DOSCALLS.329)
+ 0000:00000000  Imp  _ProfileUnwind32     (PROCL._ProfileUnwind32)
+ 0000:00000000  Imp  DosRequestMutexSem   (DOSCALLS.334)
+ 0000:00000000  Imp  __dl__FPv            (PROCL.__dl__FPv)
+ 0000:00000000  Imp  __get_frame_ptr      (PROCL.__get_frame_ptr)
+ 0000:00000000  Imp  addLocation__10IExceptionFRC18IExceptionLocation (PROCL.addLocation__10IExceptionFRC18IExceptionLocation)
+ 0000:00000000  Imp  mmioDetermineSSIOProc (MMIO.88)
+ 0000:00000000  Imp  logExceptionData__10IExceptionFv (PROCL.logExceptionData__10IExceptionFv)
+ 0000:00000000  Imp  __wDestructSOMBase   (PROCL.__wDestructSOMBase)
+ 0000:00000000  Imp  __PureVirtualCalled  (PROCL.__PureVirtualCalled)
+ 0000:00000000  Imp  __CurrentException   (PROCL.__CurrentException)
+ 0000:00000000  Imp  __Invoke__Destructor (PROCL.__Invoke__Destructor)
+ 0000:00000000  Imp  __RestoreRegsAndJump (PROCL.__RestoreRegsAndJump)
+ 0000:00000000  Imp  mmioGetInfo          (MMIO.39)
+ 0000:00000000  Imp  _PGLOBAL_PTR         (PROCL._PGLOBAL_PTR)
+ 0000:00000000  Imp  mmioSeek             (MMIO.30)
+ 0000:00000000  Imp  mmioRead             (MMIO.28)
+ 0000:00000000  Imp  isRecoverable__10IExceptionCFv (PROCL.isRecoverable__10IExceptionCFv)
+ 0000:00000000  Imp  name__10IExceptionCFv (PROCL.name__10IExceptionCFv)
+ 0000:00000000  Imp  DosReleaseMutexSem   (DOSCALLS.335)
+ 0000:00000000  Imp  __Throw              (PROCL.__Throw)
+ 0001:00000020       __ct__17StorageSystemFileFv
+ 0001:0000002E       setFileInfo__17StorageSystemFileFP9_MMIOINFO
+ 0001:00000032       defaultResponse__17StorageSystemFileFUslT2
+ 0001:00000048       dispatchMessage__17StorageSystemFileFUslT2
+ 0001:00000150       defaultResponse__19StorageSystemFormatFv
+ 0001:00000156       getFormatName__19StorageSystemFormatFPcl
+ 0001:00000170       getFormatInfo__19StorageSystemFormatFP13_MMFORMATINFO
+ 0001:000001FC       dispatchMessage__19StorageSystemFormatFUslT2
+ 0001:00000670       GetNLSData
+ 0001:000006D0       GetFormatStringLength__FlPl
+ 0001:00000704       GetFormatString__FlPcT1
+ 0001:000007EC       _DLL_InitTerm
+ 0001:00000820       MM_Message
+ 0001:00000960       __ctordtorTerm
+ 0001:00000998       __ctordtorInit
+ 0001:00000A74       _Exception_CPP
+ 0004:00000080       __vft13NavigatorFile17StorageSystemFile
+ 0004:00000108       __vft15NavigatorFormat19StorageSystemFormat
+ 0005:00000030       __ctordtorEnd
+ 0005:00000030       __ctordtorStart
+ 0005:00000040       __ctordtorCurrent
+
+Program entry point at 0001:000007EC

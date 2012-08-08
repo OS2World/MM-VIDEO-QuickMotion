@@ -1,0 +1,48 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..LIB .cpp .dll .obj 
+:TARGET.all
+:DEPENDENCY.
+.\quickmo.LIB
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /Gn /C %s
+:RULE.{F:\PRACTICE\QUICKMO\SourceQM}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /Gn /C %s
+:RULE..dll.LIB
+:ACTION.Lib::Import Lib
+:COMMAND.
+implib.exe %|dpfF.LIB %s
+:RULE.{F:\PRACTICE\QUICKMO\SourceQM}.dll.LIB
+:ACTION.Lib::Import Lib
+:COMMAND.
+implib.exe %|dpfF.LIB %s
+:TARGET..\quickmo.dll
+:DEPENDENCY.
+.\quickmo.obj
+{$(LIB)}PROCL.LIB
+{$(LIB)}MMPM2.LIB
+{$(LIB)}QUICKMO.DEF
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+ /B" /exepack:2 /packd /optfunc /noe /nod"
+ /Fequickmo.dll 
+ PROCL.LIB 
+ MMPM2.LIB 
+ QUICKMO.DEF
+ .\quickmo.obj
+<<
+:TARGET..\quickmo.obj
+:DEPENDENCY.
+F:\PRACTICE\QUICKMO\SourceQM\quickmo.cpp
+{F:\PRACTICE\QUICKMO\SourceQM;$(INCLUDE);}moovfile.hpp
+{F:\PRACTICE\QUICKMO\SourceQM;$(INCLUDE);}moovproc.h
+{F:\PRACTICE\QUICKMO\SourceQM;$(INCLUDE);}moviefil.hpp
+{F:\PRACTICE\QUICKMO\SourceQM;$(INCLUDE);}moov.hpp
+{F:\PRACTICE\QUICKMO\SourceQM;$(INCLUDE);}moviefmt.hpp
+:TARGET..\quickmo.LIB
+:DEPENDENCY.
+.\quickmo.dll

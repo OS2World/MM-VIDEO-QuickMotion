@@ -1,0 +1,3 @@
+copy prnscp.dll \PRACTICE\QUICKMO\QUICKMO\PRNSCP.DLL
+copy prnscp.dll \PRACTICE\PROCL
+

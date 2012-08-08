@@ -1,0 +1,87 @@
+:TARGET.SUFFIXES
+:DEPENDENCY..cpp .obj .rc .res 
+:TARGET.all
+:DEPENDENCY.
+.\prnscp.dll
+:RULE..cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /C %s
+:RULE.{F:\PRACTICE\QuickFlick\SourcePRNSCP}.cpp.obj
+:ACTION.Compile::C++ Compiler
+:COMMAND.
+icc.exe /O /Gm /Gd /Ge- /G5 /C %s
+:RULE..rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:RULE.{F:\PRACTICE\QuickFlick\SourcePRNSCP}.rc.res
+:ACTION.Compile::Resource Compiler
+:COMMAND.
+rc.exe -r %s .\%|fF.RES
+:TARGET..\prnscp.dll
+:DEPENDENCY.
+.\storefil.obj
+.\storefmt.obj
+.\navifile.obj
+.\navifmt.obj
+.\prnscp.obj
+.\prnscp.res
+{$(LIB)}PROCL.LIB
+{$(LIB)}OS2386.LIB
+{$(LIB)}MMPM2.LIB
+{$(LIB)}PRNSCP.DEF
+:ACTION.Link::Linker
+:COMMAND.
+icc.exe @<<
+ /B" /exepack:2 /optfunc /noe /nod"
+ /Feprnscp.dll 
+ PROCL.LIB 
+ OS2386.LIB 
+ MMPM2.LIB 
+ PRNSCP.DEF
+ .\storefil.obj
+ .\storefmt.obj
+ .\navifile.obj
+ .\navifmt.obj
+ .\prnscp.obj
+<<
+:ACTION.Bind::Resource Bind
+:COMMAND.
+rc.exe .\prnscp.res prnscp.dll
+:TARGET..\storefil.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourcePRNSCP\storefil.cpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}prnscp.h
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}storefil.hpp
+:TARGET..\prnscp.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourcePRNSCP\prnscp.cpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}storefmt.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}prnscp.h
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}navifile.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}navifmt.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}storefil.hpp
+:TARGET..\navifmt.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourcePRNSCP\navifmt.cpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}storefmt.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}prnscp.h
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}navifmt.hpp
+:TARGET..\navifile.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourcePRNSCP\navifile.cpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}storefmt.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}prnscp.h
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}navifile.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}navifmt.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}storefil.hpp
+:TARGET..\storefmt.obj
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourcePRNSCP\storefmt.cpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}storefmt.hpp
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE);}prnscp.h
+:TARGET..\prnscp.res
+:DEPENDENCY.
+F:\PRACTICE\QuickFlick\SourcePRNSCP\prnscp.rc
+{F:\PRACTICE\QuickFlick\SourcePRNSCP;$(INCLUDE)}prnscp.h
